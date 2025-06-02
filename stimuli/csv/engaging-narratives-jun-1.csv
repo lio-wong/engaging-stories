@@ -1,0 +1,419 @@
+narrative-type,forgotten-keys,getting-lunch,catching-flight,meeting-friend,finding-friend,avoiding-boss
+q-comprehension-outcome,"When Alice first paused at the front door, how much did she want to find each of the following objects?
+- to find her earrings
+- to find her unreturned library book
+- to find her keys","When Alice first left her office, how much did she want to eat each of the following for lunch?
+- sushi
+- burgers
+- chips","When Alice began downtown, how much did she want to catch her flight?
+- to catch her flight","When Alice initially arrived at the zoo, how much did she want to meet up with Billy?
+- to meet up with Billy","When Alice initially arrived at the zoo, how much did she want to meet up with Billy?
+- to meet up with Billy","When Alice initially arrived at the zoo, how much did she want to meet up with Billy?
+- to meet up with Billy"
+q-comprehension-initial-belief,"When Alice first paused at the front door, did she believe that the missing object was on her dresser drawer?
+- that it was on her dresser drawer","When Alice first left her office, did she believe that the restaurant around the corner was open?
+- that the restaurant was open","When Alice began downtown, did she believe that she would catch her flight?
+- that she would catch her flight","When Alice arrived at the zoo, did she believe that Billy would go to the pandas exhibit?
+- that Billy would go to the pandas exhibit.","When Alice arrived at the zoo, did she believe that Billy would go to the pandas exhibit?
+- that Billy would go to the pandas exhibit.","When Alice arrived at the zoo, did she believe that Billy would go to the pandas exhibit?
+- that Billy would go to the pandas exhibit."
+q-engaging,How fun was it to read that passage?,How fun was it to read that passage?,How fun was it to read that passage?,How fun was it to read that passage?,How fun was it to read that passage?,How fun was it to read that passage?
+narrative-uncertain-outcome,"BEGINNING
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+She heads to the kitchen.
+She checks the kitchen counter, where she sees a bag of chips and an unreturned library book.
+
+END
+She heads back to the bedroom.
+She thinks for a while.
+She looks behind the dresser, where she finds her keys.
+She picks up the keys and heads out the front door.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes a sushi place, which is open.
+She rounds the corner.
+There, she walks over to a burger joint. 
+The burger joint is closed.
+
+END
+She turns around and walks back, past the sushi place.
+She continues briskly past it on her way back to her office.
+There, she gets a bag of chips from the vending machine and has that for lunch.
+ 
+","BEGINNING
+Alice is downtown.
+She needs to catch a flight leaving in an hour uptown.
+
+MIDDLE
+She hails a cab. 
+The cab gets stuck in traffic.
+The traffic clears up, and she arrives with 20 minutes to spare.
+When she gets inside the airport, there is a huge line at security.
+
+END
+Alice explains her situation to an agent, who waves her to the front of the line.
+When she gets through security she finds that her flight is at the very end of a long terminal.
+She runs down the hall towards the flight.
+She arrives just in time.","BEGINNING
+Alice is just arriving at the zoo.
+She's planned to meet her friend Billy here.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+Billy is not there.
+She waits for twenty minutes.
+
+END
+She starts walking back to the entrance.
+She finds Billy waiting at the entrance.
+They head back to the panda exhibit together.
+","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her friend Billy might also be here today, but they had not set a place or time to meet.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+Billy is not there.
+She waits for twenty minutes.
+
+END
+She starts walking back to the entrance.
+She runs into Billy, who is on his way to the panda exhibit.
+They head back to the panda exhibit together.
+","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her boss Billy would be here today, but she does not know where he plans to go. 
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She takes the long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit and checks to see if Billy is in the crowd at the front.
+Billy is not there.
+She walks to the front of the exhibit and looks at the pandas for twenty minutes.
+
+END
+She starts walking back towards the entrance.
+She sees Billy approaching in the distance.
+She turns around and heads in the opposite direction.
+She takes the long route again to the entrance, where she leaves."
+reporting-uncertain-outcome,"BEGINNING
+Alice was at her front door, getting ready to leave, when she realized she was missing her keys.
+She eventually found them where they had fallen behind her bedroom dresser.
+
+MIDDLE
+She usually puts her keys on top of her dresser in her bedroom.
+However, today she first checked the dresser and then checked the kitchen counter.
+
+END
+She then returned to the bedroom, realizing they might have fallen behind the bedroom dresser.
+Once she got the keys she headed back out the front door.","BEGINNING
+Alice was pretty hungry today.
+She wound up eating a bag of chips from her office vending machine for lunch.
+
+
+MIDDLE
+There are two restaurants within walking distance from her office: a sushi place and a burger joint.
+Alice did not know that the burger place was closed today.
+She loves burgers but dislikes sushi.
+She walked all the way to the burger place from her office.
+
+END
+She walked back to the office after learning that the burger place was closed.
+There she purchased the bag of chips from the vending machine.
+
+","BEGINNING
+Alice was downtown and caught her flight just in time at the airport today.
+She managed to make it to the airport in under an hour.
+
+MIDDLE
+She caught a cab and the traffic cleared up enough that she arrived with 20 minutes to spare.
+She also was able to cut to the front of the security line by asking an agent.
+
+END
+She ran to catch her flight, which was at the end of a long terminal.
+","BEGINNING
+Alice and her friend Billy went to the zoo today and saw the panda exhibit together.
+They had both planned to meet up, but did not have the same idea of where they would meet.
+Billy had initially thought they would meet at the entrance to the zoo and walk over together.
+Alice had initially thought they would meet directly at the panda exhibit.
+
+MIDDLE
+Alice then went all the way to the panda exhibit, which was at the back of the zoo.
+She waited there for twenty minutes.
+
+END
+After she did not see Billy she came back to the entrance.
+She found him there and they headed back to the exhibit together.
+
+
+
+
+","BEGINNING
+Alice and her friend Billy both went to the zoo today and got to see the panda exhibit together.
+At the start of the day, Alice had heard that her friend Billy might also be here today, but they had not set a place or time to meet.
+She knew that Billy really liked pandas, so she thought she would try to find him at the panda exhibit.
+
+MIDDLE
+Alice had actually arrived earlier than Billy. 
+So, she got to the panda exhibit before he did.
+She waited for a while and did not think she would run into him.
+
+END
+But when she was heading back out towards the entrance, she did run into him walking to the panda exhibit.
+Then they went back to the panda exhibit together.
+","BEGINNING
+Alice went to the zoo today and saw the pandas, while avoiding running into her boss Billy.
+At the start of the day, she had heard that he would also be at the zoo.
+Both she and Billy liked pandas, so she wanted to see the exhibit but expected that he would also try to see it.
+
+MIDDLE
+She took a long route around the edge of the zoo to avoid him.
+She also approached the panda exhibit from the back to check if he was there before going to see it.
+She was able to see the pandas for twenty minutes.
+
+END
+On her way out she also saw Billy approaching in the distance.
+But she went in the opposite direction and took the long way back to the entrance.
+This let her avoid running into him.
+"
+narrative-high-certainty-outcome,"BEGINNING
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She usually puts her keys on top of her dresser.
+She heads to her bedroom.
+She looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings.
+
+END
+She picks up the keys.
+She heads out the front door.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+
+MIDDLE
+She looks online at what restaurants are open today.
+She leaves her office and walks down the block.
+She passes a sushi place, which is open.
+She rounds the corner.
+There, she walks over to a burger joint. 
+The burger place is open.
+
+END
+She purchases a burger.
+She heads back to her office with the burger.
+","BEGINNING
+Alice is downtown.
+She needs to catch a flight leaving in four hours uptown.
+
+MIDDLE
+She hails a cab. 
+The cab gets stuck in traffic.
+The traffic clears up, and she arrives with 3 hours to spare.
+When she gets inside the airport, there is a huge line at security.
+
+END
+She waits in line at security.
+When she gets through security she finds that her flight as at the very end of a long terminal.
+She walks down the hall.
+She arrives with an hour or so left.","BEGINNING
+Alice is just arriving at the zoo.
+She's planned to meet her friend Billy here.
+
+MIDDLE
+She and Billy had planned in advance to meet at the panda exhibit.
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+Billy is not there.
+She waits for two minutes.
+
+END
+Billy arrives and sees her.
+They say hi, and look at the panda exhibit together.","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her friend Billy might also be here today, but they had not set a place or time to meet.
+
+MIDDLE
+She did know that Billy liked pandas and would probably go to the panda exhibit.
+She also knew that Billy would probably arrive at the zoo in the morning, around the same time she did.
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+Billy is not there.
+She waits for two minutes.
+
+END
+Billy arrives and sees her.
+They say hi, and look at the panda exhibit together.","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her boss Billy would be here today, but she does not know where he plans to go. 
+
+MIDDLE
+She did know that Billy liked pandas and would probably go to the panda exhibit.
+She also knew that Billy would probably arrive at the zoo in the morning, around the same time she did.
+She went to the zebra exhibit instead, which was on the opposite side of the park.
+Billy was not there.
+
+END
+She looked at the zebras.
+Then she went back to the entrance and left the park."
+narrative-missing-detail,"BEGINNING
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+She heads to the kitchen.
+She checks the kitchen counter, where she sees a bag of chips and an unreturned library book.
+
+END
+She heads back to the bedroom.
+She thinks for a while.
+She looks behind the dresser.
+She heads back out the front door.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes a sushi place.
+She rounds the corner and comes to a burger joint.
+
+
+END
+She heads back to her office, where she gets a bag of chips from the vending machine.
+","BEGINNING
+Alice is downtown.
+She needs to catch a flight leaving in an hour uptown.
+
+MIDDLE
+She hails a cab. 
+The cab gets stuck in traffic.
+When she gets inside the airport, there is a huge line at security.
+
+END
+When she gets through security she finds that her flight is at the very end of a long terminal.
+She gets on the flight in time.","BEGINNING
+Alice is just arriving at the zoo.
+She's planned to meet her friend Billy here.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+She waits for twenty minutes.
+
+END
+She starts walking back to the entrance.
+Then she walks back to the panda exhibit.
+","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her friend Billy might also be here today.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+She waits for twenty minutes.
+
+END
+She starts walking back to the entrance.
+Then she turns around and heads back to the panda exhibit.
+","BEGINNING
+Alice is just arriving at the zoo.
+
+MIDDLE
+She checks the map posted at the entry.
+She takes the long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit.
+She walks to the front of the exhibit and looks at the pandas for twenty minutes.
+
+END
+She starts walking back towards the entrance.
+She turns around and heads in the opposite direction.
+She takes the long route again to the entrance, where she leaves."
+narrative-no-resolution,"BEGINNING
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+
+
+END
+She heads to the kitchen.
+She checks the kitchen counter, where she sees a bag of chips and an unreturned library book.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes a sushi place.
+
+END
+She rounds the corner.
+
+","BEGINNING
+Alice is downtown.
+She needs to catch a flight leaving in an hour uptown.
+
+MIDDLE
+She hails a cab. 
+There is a lot of traffic on the way there.
+There is also a huge line at security today.
+
+END
+Even past the security line, the flight is at the end of a very long terminal.","BEGINNING
+Alice is just arriving at the zoo.
+She's planned to meet her friend Billy here.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+
+
+END
+Billy is not there.
+She waits for twenty minutes.
+","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her friend Billy might also be here today, but they had not set a place or time to meet.
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She walks through the zoo, past the zebras.
+She arrives at the panda bear exhibit.
+
+END
+Billy is not there.
+She waits for twenty minutes.
+","BEGINNING
+Alice is just arriving at the zoo.
+She'd heard that her boss Billy would be here today, but she does not know where he plans to go. 
+
+MIDDLE
+She checks the map posted at the entry, where she sees that the panda bear exhibit is towards the back of the zoo.
+She takes the long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit and checks to see if Billy is in the crowd at the front.
+Billy is not there.
+She walks to the front of the exhibit and looks at the pandas for twenty minutes.
+
+END
+She starts walking back towards the entrance.
+She sees Billy approaching in the distance."
