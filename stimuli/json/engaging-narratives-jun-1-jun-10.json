@@ -524,6 +524,17 @@
     },
     "stimuli-qs-for-settings": {
         "forgotten-keys": {
+            "q-comprehension-openended-latent": {
+                "question": "What things did Alice forget?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "Where does she ultimately find them?",
                 "options": "How confident are you in your answer?",
@@ -544,6 +555,17 @@
             }
         },
         "getting-lunch": {
+            "q-comprehension-openended-latent": {
+                "question": "What did Alice want for lunch?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "What did Alice ultimately have for lunch?",
                 "options": "How confident are you in your answer?",
@@ -564,6 +586,17 @@
             }
         },
         "playing-sports": {
+            "q-comprehension-openended-latent": {
+                "question": "Is David a better ping pong player than Alice?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "Did Alice and Bob get a free lunch the next day?",
                 "options": "How confident are you in your answer?",
@@ -584,6 +617,17 @@
             }
         },
         "meeting-friend": {
+            "q-comprehension-openended-latent": {
+                "question": "What did Alice want to do with Billy at the park today?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "Where did she find Billy?",
                 "options": "How confident are you in your answer?",
@@ -604,6 +648,17 @@
             }
         },
         "finding-celebrity": {
+            "q-comprehension-openended-latent": {
+                "question": "Where was the celebrity?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "Does Alice ultimately find him?",
                 "options": "How confident are you in your answer?",
@@ -624,6 +679,17 @@
             }
         },
         "stealing-cookies": {
+            "q-comprehension-openended-latent": {
+                "question": "What snack did Alice want to take?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
             "q-comprehension-openended-outcome": {
                 "question": "Did she ultimately succeed?",
                 "options": "How confident are you in your answer?",

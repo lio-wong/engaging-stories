@@ -56,7 +56,7 @@ if __name__ == "__main__":
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_desire_question(stim[setting])
                 elif stim['narrative-type'] == 'q-comprehension-initial-belief':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_boolean_belief_question(stim[setting])
-                elif stim['narrative-type'] == 'q-comprehension-openended-goal' or stim['narrative-type'] == 'q-comprehension-openended-outcome':
+                elif stim['narrative-type'] == 'q-comprehension-openended-latent' or stim['narrative-type'] == 'q-comprehension-openended-outcome':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_openended_confidence_question(stim[setting])
                 elif stim['narrative-type'] == 'q-engaging':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_engaging_question(stim[setting])
