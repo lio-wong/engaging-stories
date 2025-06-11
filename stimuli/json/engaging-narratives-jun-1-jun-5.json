@@ -1,0 +1,1121 @@
+{
+    "settings": [
+        "forgotten-keys",
+        "getting-lunch",
+        "catching-train",
+        "meeting-friend",
+        "finding-friend",
+        "avoiding-boss"
+    ],
+    "scenario-types": [
+        "narrative-goal-uncertain-outcome-uncertain",
+        "narrative-goal-certain-outcome-uncertain",
+        "narrative-goal-uncertain-outcome-high-certainty",
+        "narrative-goal-certain-outcome-high-certainty",
+        "reporting",
+        "narrative-goal-uncertain-no-resolution",
+        "narrative-goal-certain-no-resolution",
+        "narrative-missing-detail"
+    ],
+    "question-types": [
+        "q-comprehension-openended-goal",
+        "q-comprehension-openended-outcome",
+        "q-engaging"
+    ],
+    "stimuli-for-settings": {
+        "forgotten-keys": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nShe is at her front door, getting ready to leave.\nShe pauses, realizing she has forgotten something.\n\nMIDDLE\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees a hat and a pair of earrings.\n\nEND\nShe heads to the kitchen.\nShe checks the dining table, where she sees a bag of chips and an unreturned library book.\nShe heads back to the bedroom.\nShe thinks for a while.\nShe looks behind the dresser, where she sees her keys.\nShe picks up the keys and heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "She is at her front door, getting ready to leave.",
+                        "She pauses, realizing she has forgotten something."
+                    ],
+                    [
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees a hat and a pair of earrings."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the dining table, where she sees a bag of chips and an unreturned library book.",
+                        "She heads back to the bedroom.",
+                        "She thinks for a while.",
+                        "She looks behind the dresser, where she sees her keys.",
+                        "She picks up the keys and heads out the front door."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nShe is at her front door, getting ready to leave.\nShe pauses, realizing she has forgotten her keys.\n\nMIDDLE\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees a hat and a pair of earrings.\n\nEND\nShe heads to the kitchen.\nShe checks the dining table, where she sees a bag of chips and an unreturned library book.\nShe heads back to the bedroom.\nShe thinks for a while.\nShe looks behind the dresser, where she sees her keys.\nShe picks up the keys and heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "She is at her front door, getting ready to leave.",
+                        "She pauses, realizing she has forgotten her keys."
+                    ],
+                    [
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees a hat and a pair of earrings."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the dining table, where she sees a bag of chips and an unreturned library book.",
+                        "She heads back to the bedroom.",
+                        "She thinks for a while.",
+                        "She looks behind the dresser, where she sees her keys.",
+                        "She picks up the keys and heads out the front door."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nAlice is at her front door, getting ready to leave.\nShe pauses, realizing she has forgotten something.\n\nMIDDLE\nShe usually puts her keys on top of her dresser.\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings.\n\nEND\nShe picks up the keys.\nShe heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "Alice is at her front door, getting ready to leave.",
+                        "She pauses, realizing she has forgotten something."
+                    ],
+                    [
+                        "She usually puts her keys on top of her dresser.",
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings."
+                    ],
+                    [
+                        "She picks up the keys.",
+                        "She heads out the front door."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nAlice is at her front door, getting ready to leave.\nShe pauses, realizing she has forgotten her keys.\n\nMIDDLE\nShe usually puts her keys on top of her dresser.\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings.\n\nEND\nShe picks up the keys.\nShe heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "Alice is at her front door, getting ready to leave.",
+                        "She pauses, realizing she has forgotten her keys."
+                    ],
+                    [
+                        "She usually puts her keys on top of her dresser.",
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings."
+                    ],
+                    [
+                        "She picks up the keys.",
+                        "She heads out the front door."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice found her keys behind the dresser drawer today as she was leaving for work.\nShe found the keys there after looking several places first.\nShe realized she had forgotten her keys as she heading out the front door.\nShe left for work after going back into the house to get the keys.\n\n\nMIDDLE\nThe two places she looked before looking behind the dresser were the top of the dresser and the kitchen counter.\nThe top of the dresser only had a hat and a pair of earrings on it.\nThe kitchen counter only had a bag of chips and an unreturned library book on it.\n\nEND\nThe dresser was in her bedroom.\nThe dining table was in her kitchen.\nThis meant that Alice went to the bedroom, then the kitchen, then back to the bedroom again.\nShe had to think a while in the bedroom before realizing the keys might have been behind the dresser.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice found her keys behind the dresser drawer today as she was leaving for work.",
+                        "She found the keys there after looking several places first.",
+                        "She realized she had forgotten her keys as she heading out the front door.",
+                        "She left for work after going back into the house to get the keys."
+                    ],
+                    [
+                        "The two places she looked before looking behind the dresser were the top of the dresser and the kitchen counter.",
+                        "The top of the dresser only had a hat and a pair of earrings on it.",
+                        "The kitchen counter only had a bag of chips and an unreturned library book on it."
+                    ],
+                    [
+                        "The dresser was in her bedroom.",
+                        "The dining table was in her kitchen.",
+                        "This meant that Alice went to the bedroom, then the kitchen, then back to the bedroom again.",
+                        "She had to think a while in the bedroom before realizing the keys might have been behind the dresser."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nAlice is at her front door, getting ready to leave.\nShe pauses at the front door, realizing she has forgotten something.\n\nMIDDLE\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees a hat and a pair of earrings.\n\nEND\nShe heads to the kitchen.\nShe checks the kitchen counter, where she sees a bag of chips and an unreturned library book.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "Alice is at her front door, getting ready to leave.",
+                        "She pauses at the front door, realizing she has forgotten something."
+                    ],
+                    [
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees a hat and a pair of earrings."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the kitchen counter, where she sees a bag of chips and an unreturned library book."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work. \nAlice is at her front door, getting ready to leave.\nShe pauses at the front door, realizing she has forgotten something.\n\nMIDDLE\nShe heads to her bedroom.\nShe looks on top of her dresser, where she sees a hat and a pair of earrings.\n\nEND\nShe heads to the kitchen.\nShe checks the kitchen counter, where she sees a bag of chips and an unreturned library book.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is about to go to work.",
+                        "Alice is at her front door, getting ready to leave.",
+                        "She pauses at the front door, realizing she has forgotten something."
+                    ],
+                    [
+                        "She heads to her bedroom.",
+                        "She looks on top of her dresser, where she sees a hat and a pair of earrings."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the kitchen counter, where she sees a bag of chips and an unreturned library book."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        },
+        "getting-lunch": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her office.\nAround lunchtime, she starts feeling pretty hungry.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe passes the neighborhood pizza place, seeing that it is open today.\n\nEND\nShe rounds the corner.\nShe walks a few blocks more to the town burger joint. \nShe sees that the burger joint is closed.\nShe turns around and walks the few blocks back to the corner.\nShe walks past the pizza place and heads back to her office.\nThere, she gets a bag of chips from the vending machine and has that for lunch.\n \n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her office.",
+                        "Around lunchtime, she starts feeling pretty hungry."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She passes the neighborhood pizza place, seeing that it is open today."
+                    ],
+                    [
+                        "She rounds the corner.",
+                        "She walks a few blocks more to the town burger joint.",
+                        "She sees that the burger joint is closed.",
+                        "She turns around and walks the few blocks back to the corner.",
+                        "She walks past the pizza place and heads back to her office.",
+                        "There, she gets a bag of chips from the vending machine and has that for lunch."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her office.\nAround lunchtime, she starts feeling hungry.\nShe plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe passes the neighborhood pizza place, seeing that it is open today.\n\nEND\nShe rounds the corner.\nShe walks a few blocks more to the town burger joint. \nShe sees that the burger joint is closed.\nShe turns around and walks the few blocks back to the corner.\nShe walks past the pizza place and heads back to her office.\nThere, she gets a bag of chips from the vending machine and has that for lunch.\n \n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her office.",
+                        "Around lunchtime, she starts feeling hungry.",
+                        "She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She passes the neighborhood pizza place, seeing that it is open today."
+                    ],
+                    [
+                        "She rounds the corner.",
+                        "She walks a few blocks more to the town burger joint.",
+                        "She sees that the burger joint is closed.",
+                        "She turns around and walks the few blocks back to the corner.",
+                        "She walks past the pizza place and heads back to her office.",
+                        "There, she gets a bag of chips from the vending machine and has that for lunch."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nAlice is at her office.\nShe's feeling pretty hungry.\n\nMIDDLE\nShe looks online at what restaurants are open today.\nShe leaves her office and walks down the block.\nShe passes a sushi place, which is open.\nShe rounds the corner.\nThere, she walks over to a burger joint. \nThe burger place is open.\n\nEND\nShe purchases a burger.\nShe heads back to her office with the burger.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice is at her office.",
+                        "She's feeling pretty hungry."
+                    ],
+                    [
+                        "She looks online at what restaurants are open today.",
+                        "She leaves her office and walks down the block.",
+                        "She passes a sushi place, which is open.",
+                        "She rounds the corner.",
+                        "There, she walks over to a burger joint.",
+                        "The burger place is open."
+                    ],
+                    [
+                        "She purchases a burger.",
+                        "She heads back to her office with the burger."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nAlice is at her office.\nShe's feeling pretty hungry.\nShe plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.\n\nMIDDLE\nShe looks online at what restaurants are open today.\nShe leaves her office and walks down the block.\nShe passes a sushi place, which is open.\nShe rounds the corner.\nThere, she walks over to a burger joint. \nThe burger place is open.\n\nEND\nShe purchases a burger.\nShe heads back to her office with the burger.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice is at her office.",
+                        "She's feeling pretty hungry.",
+                        "She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today."
+                    ],
+                    [
+                        "She looks online at what restaurants are open today.",
+                        "She leaves her office and walks down the block.",
+                        "She passes a sushi place, which is open.",
+                        "She rounds the corner.",
+                        "There, she walks over to a burger joint.",
+                        "The burger place is open."
+                    ],
+                    [
+                        "She purchases a burger.",
+                        "She heads back to her office with the burger."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice ate a bag of chips for lunch today, because she did not plan ahead to check what nearby restaurants were open.\nShe had originally wanted a burger, but did not realize that the burger joint nearby was closed.\nShe did not want pizza, which was the only other nearby restaurant that was open.\n\nMIDDLE\nShe ultimately purchased the bag of chips from a vending machine in her office building.\nHowever, because she had not checked the restaurant hours, she previously walked all the way to the burger joint.\n\nEND\nOn her way there and back she passed the open pizza place, which she did not enter because she did not want pizza.\nThe burger joint was down the block and around a corner.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice ate a bag of chips for lunch today, because she did not plan ahead to check what nearby restaurants were open.",
+                        "She had originally wanted a burger, but did not realize that the burger joint nearby was closed.",
+                        "She did not want pizza, which was the only other nearby restaurant that was open."
+                    ],
+                    [
+                        "She ultimately purchased the bag of chips from a vending machine in her office building.",
+                        "However, because she had not checked the restaurant hours, she previously walked all the way to the burger joint."
+                    ],
+                    [
+                        "On her way there and back she passed the open pizza place, which she did not enter because she did not want pizza.",
+                        "The burger joint was down the block and around a corner."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her office.\nAround lunchtime, she starts feeling pretty hungry.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe passes the neighborhood pizza place, seeing that it is open today.\n\nEND\nShe rounds the corner.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her office.",
+                        "Around lunchtime, she starts feeling pretty hungry."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She passes the neighborhood pizza place, seeing that it is open today."
+                    ],
+                    [
+                        "She rounds the corner."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her office.\nAround lunchtime, she starts feeling pretty hungry.\nShe plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe passes the neighborhood pizza place, seeing that it is open today.\n\nEND\nShe rounds the corner.\n\n \n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her office.",
+                        "Around lunchtime, she starts feeling pretty hungry.",
+                        "She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She passes the neighborhood pizza place, seeing that it is open today."
+                    ],
+                    [
+                        "She rounds the corner."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        },
+        "catching-train": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has less than half an hour to get where she needs to go uptown.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\nThe cab driver says he knows a shortcut.\nThey take the shortcut and arrive at a large brick building.\nShe checks the map -- she needs to go downstairs and down a long hallway.\nShe runs down the stairs and down the hall.\nShe arrives just in time to get aboard a train.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has less than half an hour to get where she needs to go uptown."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic.",
+                        "The cab driver says he knows a shortcut.",
+                        "They take the shortcut and arrive at a large brick building.",
+                        "She checks the map -- she needs to go downstairs and down a long hallway.",
+                        "She runs down the stairs and down the hall.",
+                        "She arrives just in time to get aboard a train."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has less than half an hour to get to the station uptown before her train leaves.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\nThe cab driver says he knows a shortcut.\nThey take the shortcut and arrive at a large brick building.\nShe checks the map -- she needs to go downstairs and down a long hallway.\nShe runs down the stairs and down the hall.\nShe arrives just in time to get aboard a train.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has less than half an hour to get to the station uptown before her train leaves."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic.",
+                        "The cab driver says he knows a shortcut.",
+                        "They take the shortcut and arrive at a large brick building.",
+                        "She checks the map -- she needs to go downstairs and down a long hallway.",
+                        "She runs down the stairs and down the hall.",
+                        "She arrives just in time to get aboard a train."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has four hours to get where she needs to go uptown.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\nThe cab driver says he knows a shortcut.\nThey take the shortcut and arrive at a large brick building.\nShe checks the map -- she needs to go downstairs and down a long hallway.\nShe runs down the stairs and down the hall.\nShe arrives and waits for her train with hours to spare.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has four hours to get where she needs to go uptown."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic.",
+                        "The cab driver says he knows a shortcut.",
+                        "They take the shortcut and arrive at a large brick building.",
+                        "She checks the map -- she needs to go downstairs and down a long hallway.",
+                        "She runs down the stairs and down the hall.",
+                        "She arrives and waits for her train with hours to spare."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has four hours to get to the station uptown before her train leaves.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\nThe cab driver says he knows a shortcut.\nThey take the shortcut and arrive at a large brick building.\nShe checks the map -- she needs to go downstairs and down a long hallway.\nShe runs down the stairs and down the hall.\nShe arrives and waits for her train with hours to spare.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has four hours to get to the station uptown before her train leaves."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic.",
+                        "The cab driver says he knows a shortcut.",
+                        "They take the shortcut and arrive at a large brick building.",
+                        "She checks the map -- she needs to go downstairs and down a long hallway.",
+                        "She runs down the stairs and down the hall.",
+                        "She arrives and waits for her train with hours to spare."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice caught her train uptown today just in time, managing to overcome several detours that slowed her down along the way.\nShe began at her apartment downtown, and only had less than half an hour to get uptown because she had checked her watch late.\n\nMIDDLE\nThe first detour was that subways were delayed by 20 minutes today\u2265\nThis lead her to take a cab.\n\nEND\nThe second detour was that the cab got stuck in traffic.\nHowever, the cab driver was able to take a shortcut.\nThe last detour was that the train itself was downstairs and down a long hallway.\nHowever, she was able to run down the stairs and down the hall.",
+                "narrative-sentences": [
+                    [
+                        "Alice caught her train uptown today just in time, managing to overcome several detours that slowed her down along the way.",
+                        "She began at her apartment downtown, and only had less than half an hour to get uptown because she had checked her watch late."
+                    ],
+                    [
+                        "The first detour was that subways were delayed by 20 minutes today\u2265",
+                        "This lead her to take a cab."
+                    ],
+                    [
+                        "The second detour was that the cab got stuck in traffic.",
+                        "However, the cab driver was able to take a shortcut.",
+                        "The last detour was that the train itself was downstairs and down a long hallway.",
+                        "However, she was able to run down the stairs and down the hall."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has less than half an hour to get where she needs to go uptown.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has less than half an hour to get where she needs to go uptown."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her apartment downtown.\nShe checks her watch -- she has less than half an hour to get to the station uptown before her train leaves.\n\nMIDDLE\nAlice goes to the subway station.\nThe subway announcer says that all trains are delayed by 20 minutes today.\n\nEND\nShe goes back upstairs and hails a cab.\nThe cab gets stuck in traffic.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice is at her apartment downtown.",
+                        "She checks her watch -- she has less than half an hour to get to the station uptown before her train leaves."
+                    ],
+                    [
+                        "Alice goes to the subway station.",
+                        "The subway announcer says that all trains are delayed by 20 minutes today."
+                    ],
+                    [
+                        "She goes back upstairs and hails a cab.",
+                        "The cab gets stuck in traffic."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        },
+        "meeting-friend": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe stands there for twenty minutes.\nAfter twenty minutes pass, she starts walking back to the park entrance.\nShe finds her friend Billy waiting for her at the entrance.\nThey head back to the baseball game together.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She stands there for twenty minutes.",
+                        "After twenty minutes pass, she starts walking back to the park entrance.",
+                        "She finds her friend Billy waiting for her at the entrance.",
+                        "They head back to the baseball game together."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nShe plans to meet her friend Billy to watch a baseball game together.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe stands there for twenty minutes.\nAfter twenty minutes pass, she starts walking back to the park entrance.\nShe finds her friend Billy waiting for her at the entrance.\nThey head back to the baseball game together.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "She plans to meet her friend Billy to watch a baseball game together.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She stands there for twenty minutes.",
+                        "After twenty minutes pass, she starts walking back to the park entrance.",
+                        "She finds her friend Billy waiting for her at the entrance.",
+                        "They head back to the baseball game together."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe sees her friend Billy there, where they had planned to meet up.\nThey head in and take a seat on the bleachers.\nThey watch the baseball game together.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She sees her friend Billy there, where they had planned to meet up.",
+                        "They head in and take a seat on the bleachers.",
+                        "They watch the baseball game together."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nShe plans to meet her friend Billy to watch a baseball game together.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe sees her friend Billy there, where they had planned to meet up.\nThey head in and take a seat on the bleachers.\nThey watch the baseball game together.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "She plans to meet her friend Billy to watch a baseball game together.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She sees her friend Billy there, where they had planned to meet up.",
+                        "They head in and take a seat on the bleachers.",
+                        "They watch the baseball game together."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice watched a baseball game at the park with her friend Billy today.\nThey met up successfully, despite a brief period in which Billy believed he would meet Alice at the park entrance and Alice thought she would meet him directly at the field.\n\nMIDDLE\nAlice previously went all the way to the baseball field before realizing that Billy was not there.\nShe arrived as the baseball game was just beginning and waited for twenty minutes before deciding to return back to the park entrance.\n\nEND\nWhen she returned to the park entrance, she met Billy, where he had been waiting.\nOnce they returned to the game together, Billy and Alice sat on the bleachers to watch the baseball game.\nThere is a playground full of kids on the path from the park entrance to the baseball field.\n\n\n\n\n\n",
+                "narrative-sentences": [
+                    [
+                        "Alice watched a baseball game at the park with her friend Billy today.",
+                        "They met up successfully, despite a brief period in which Billy believed he would meet Alice at the park entrance and Alice thought she would meet him directly at the field."
+                    ],
+                    [
+                        "Alice previously went all the way to the baseball field before realizing that Billy was not there.",
+                        "She arrived as the baseball game was just beginning and waited for twenty minutes before deciding to return back to the park entrance."
+                    ],
+                    [
+                        "When she returned to the park entrance, she met Billy, where he had been waiting.",
+                        "Once they returned to the game together, Billy and Alice sat on the bleachers to watch the baseball game.",
+                        "There is a playground full of kids on the path from the park entrance to the baseball field."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe stands there for twenty minutes.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She stands there for twenty minutes."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nShe plans to meet her friend Billy to watch a baseball game together.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe passes a playground full of kids.\nShe comes to a large field.\nA baseball game is just beginning.\nAlice stands near the edge of the bleachers.\n\nEND\nShe stands there for twenty minutes.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the park.",
+                        "She plans to meet her friend Billy to watch a baseball game together.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She passes a playground full of kids.",
+                        "She comes to a large field.",
+                        "A baseball game is just beginning.",
+                        "Alice stands near the edge of the bleachers."
+                    ],
+                    [
+                        "She stands there for twenty minutes."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        },
+        "finding-friend": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe sees her friend Belinda here and taps her on the shoulder.\nBelinda turns around and jumps up when she sees Alice.\nThey hug, and get an ice cream together to share at the foodcourt.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She sees her friend Belinda here and taps her on the shoulder.",
+                        "Belinda turns around and jumps up when she sees Alice.",
+                        "They hug, and get an ice cream together to share at the foodcourt."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nShe hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.\nHowever, she knows it is a large mall, where she might not be able to find Belinda.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe sees her friend Belinda here and taps her on the shoulder.\nBelinda turns around and jumps up when she sees Alice.\nThey hug, and get an ice cream together to share at the foodcourt.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.",
+                        "However, she knows it is a large mall, where she might not be able to find Belinda.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She sees her friend Belinda here and taps her on the shoulder.",
+                        "Belinda turns around and jumps up when she sees Alice.",
+                        "They hug, and get an ice cream together to share at the foodcourt."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe looks around the foodcourt.\nShe continues looking inside all of the stores in the mall.\nShe heads back out of the mall.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She looks around the foodcourt.",
+                        "She continues looking inside all of the stores in the mall.",
+                        "She heads back out of the mall."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nShe hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.\nHowever, she knows it is a large mall, where she might not be able to find Belinda.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe looks around the foodcourt.\nShe continues looking inside all of the stores in the mall.\nShe heads back out of the mall.\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.",
+                        "However, she knows it is a large mall, where she might not be able to find Belinda.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She looks around the foodcourt.",
+                        "She continues looking inside all of the stores in the mall.",
+                        "She heads back out of the mall."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice shared an ice cream with her friend Belinda at the mall foodcourt today,\nShe successfully found Belinda after looking in several different locations at the mall.\nShe had hoped to find Belinda after hearing from another friend that Belinda would also be at the mall today.\nHowever, she had also known that it was a large mall, and she might not have been able to find Belinda there.\n\nMIDDLE\nThe first place she had looked was the shoe store just near the entrance..\nShe then continued to the next store down, which was a clothing store.\n\nEND\nShe then continued to the foodcourt.\nThe foodcourt was down a hallway from the clothing store.\nWhen she met Belinda initially, they hugged.\nAlice tapped Belinda on the shoulder to let her know she was there when she first saw Belinda at the foodcourt.",
+                "narrative-sentences": [
+                    [
+                        "Alice shared an ice cream with her friend Belinda at the mall foodcourt today,",
+                        "She successfully found Belinda after looking in several different locations at the mall.",
+                        "She had hoped to find Belinda after hearing from another friend that Belinda would also be at the mall today.",
+                        "However, she had also known that it was a large mall, and she might not have been able to find Belinda there."
+                    ],
+                    [
+                        "The first place she had looked was the shoe store just near the entrance..",
+                        "She then continued to the next store down, which was a clothing store."
+                    ],
+                    [
+                        "She then continued to the foodcourt.",
+                        "The foodcourt was down a hallway from the clothing store.",
+                        "When she met Belinda initially, they hugged.",
+                        "Alice tapped Belinda on the shoulder to let her know she was there when she first saw Belinda at the foodcourt."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the mall.\nShe hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.\nHowever, she knows it is a large mall, where she might not be able to find Belinda.\nWhen she walks into the mall entrance, she heads inside a shoe store just near the entrance.\n\nMIDDLE\nShe looks inside the shoe store, then heads back out.\nShe goes inside the next store down, which is a clothing store.\nShe looks inside the clothing store, then heads back out.\n\nEND\nShe walks down the mall hallway.\nShe comes to the foodcourt.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the mall.",
+                        "She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.",
+                        "However, she knows it is a large mall, where she might not be able to find Belinda.",
+                        "When she walks into the mall entrance, she heads inside a shoe store just near the entrance."
+                    ],
+                    [
+                        "She looks inside the shoe store, then heads back out.",
+                        "She goes inside the next store down, which is a clothing store.",
+                        "She looks inside the clothing store, then heads back out."
+                    ],
+                    [
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        },
+        "avoiding-boss": {
+            "narrative-goal-uncertain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the zoo.\nWhen she walks into the zoo entry, she checks a map posted at the entrance.\nShe sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.\n\nMIDDLE\nShe takes a long route around the zoo, around the outer edge.\nShe comes up around the back of the panda exhibit.\n\nEND\nShe looks around the crowd at the front of the panda exhibit.\nShe walks to the front of the exhibit and looks at the pandas for a while.\nAs she is standing there, she sees her boss, Joe, approaching the exhibit.\nShe turns around and heads in the opposite direction.\nShe takes the long route again to the entrance, where she leaves.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the zoo.",
+                        "When she walks into the zoo entry, she checks a map posted at the entrance.",
+                        "She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo."
+                    ],
+                    [
+                        "She takes a long route around the zoo, around the outer edge.",
+                        "She comes up around the back of the panda exhibit."
+                    ],
+                    [
+                        "She looks around the crowd at the front of the panda exhibit.",
+                        "She walks to the front of the exhibit and looks at the pandas for a while.",
+                        "As she is standing there, she sees her boss, Joe, approaching the exhibit.",
+                        "She turns around and heads in the opposite direction.",
+                        "She takes the long route again to the entrance, where she leaves."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-uncertain": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the zoo.\nShe wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.\nWhen she walks into the zoo entry, she checks a map posted at the entrance.\nShe sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.\n\nMIDDLE\nShe takes a long route around the zoo, around the outer edge.\nShe comes up around the back of the panda exhibit.\n\nEND\nShe looks around the crowd at the front of the panda exhibit.\nShe walks to the front of the exhibit and looks at the pandas for a while.\nAs she is standing there, she sees her boss, Joe, approaching the exhibit.\nShe turns around and heads in the opposite direction.\nShe takes the long route again to the entrance, where she leaves.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the zoo.",
+                        "She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.",
+                        "When she walks into the zoo entry, she checks a map posted at the entrance.",
+                        "She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo."
+                    ],
+                    [
+                        "She takes a long route around the zoo, around the outer edge.",
+                        "She comes up around the back of the panda exhibit."
+                    ],
+                    [
+                        "She looks around the crowd at the front of the panda exhibit.",
+                        "She walks to the front of the exhibit and looks at the pandas for a while.",
+                        "As she is standing there, she sees her boss, Joe, approaching the exhibit.",
+                        "She turns around and heads in the opposite direction.",
+                        "She takes the long route again to the entrance, where she leaves."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nAlice went to the zoo today and saw the panda exhibit, which she had wanted to see while avoiding running into her boss Billy.\nShe had heard that he would also be at the zoo, but planned to take a route so that she could see if he was there and avoid running into him on the way in.\nShe checked the map in advance and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.\n\nMIDDLE\nShe walked along this longer route to the panda exhibit without running into him.\nShe also was able to look around the front of the exhibit\n",
+                "narrative-sentences": [
+                    [
+                        "Alice went to the zoo today and saw the panda exhibit, which she had wanted to see while avoiding running into her boss Billy.",
+                        "She had heard that he would also be at the zoo, but planned to take a route so that she could see if he was there and avoid running into him on the way in.",
+                        "She checked the map in advance and planned a route that would let her come up around the back of the exhibit and take a less traveled route there."
+                    ],
+                    [
+                        "She walked along this longer route to the panda exhibit without running into him.",
+                        "She also was able to look around the front of the exhibit"
+                    ],
+                    [
+                        "BEGINNING",
+                        "Alice went to the zoo today and saw the panda exhibit, which she had wanted to see while avoiding running into her boss Billy.",
+                        "She had heard that he would also be at the zoo, but planned to take a route so that she could see if he was there and avoid running into him on the way in.",
+                        "She checked the map in advance and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.",
+                        "MIDDLE",
+                        "She walked along this longer route to the panda exhibit without running into him.",
+                        "She also was able to look around the front of the exhibit"
+                    ]
+                ]
+            },
+            "narrative-goal-certain-outcome-high-certainty": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the zoo.\nShe wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.\nWhen she walks into the zoo entry, she checks a map posted at the entrance.\nShe sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.\n\nMIDDLE\nShe thinks for a while.\nShe starts walking through the zoo towards the zebra exhibit, which is far from everything else in the zoo.\nShe walks to the front of the exhibit and looks at the zebras for a while.\n\nEND\nShe does not run into anyone she knows at the zebra exhibit.\nOnce she is done looking, she turns around and heads back towards the entrance.\nShe leaves the zoo.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the zoo.",
+                        "She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.",
+                        "When she walks into the zoo entry, she checks a map posted at the entrance.",
+                        "She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo."
+                    ],
+                    [
+                        "She thinks for a while.",
+                        "She starts walking through the zoo towards the zebra exhibit, which is far from everything else in the zoo.",
+                        "She walks to the front of the exhibit and looks at the zebras for a while."
+                    ],
+                    [
+                        "She does not run into anyone she knows at the zebra exhibit.",
+                        "Once she is done looking, she turns around and heads back towards the entrance.",
+                        "She leaves the zoo."
+                    ]
+                ]
+            },
+            "reporting": {
+                "raw_narrative": "BEGINNING\nAlice went to the zoo today and saw the panda exhibit, while successfully avoiding into her boss Joe.\nShe wanted to see the pandas, but had heard that Joe would also be there.\nSo, she checked the map at the zoo entry and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.\nShe also nearly ran into him as she was leaving, but managed to avoid him by taking the same less traveled route out of the zoo. \n\nMIDDLE\nShe walked along this longer route into the lab and arrived at the panda exhibit without running into him.\nWhen she arrived at the panda exhibit, she also came around the back of the exhibit and checked the front of the crowd so that she would avoid seeing him.\n\nEND\nShe managed to look at the pandas for a while this way.\nShe did see Joe approaching the exhibit as she was leaving, but turned around and headed in the opposite direction.\nOn the map of the zoo, she also saw that in addition to the panda bear exhibit toward the back of the zoo, there was also a zebra exhibit in a far off corner of the zoo.",
+                "narrative-sentences": [
+                    [
+                        "Alice went to the zoo today and saw the panda exhibit, while successfully avoiding into her boss Joe.",
+                        "She wanted to see the pandas, but had heard that Joe would also be there.",
+                        "So, she checked the map at the zoo entry and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.",
+                        "She also nearly ran into him as she was leaving, but managed to avoid him by taking the same less traveled route out of the zoo."
+                    ],
+                    [
+                        "She walked along this longer route into the lab and arrived at the panda exhibit without running into him.",
+                        "When she arrived at the panda exhibit, she also came around the back of the exhibit and checked the front of the crowd so that she would avoid seeing him."
+                    ],
+                    [
+                        "She managed to look at the pandas for a while this way.",
+                        "She did see Joe approaching the exhibit as she was leaving, but turned around and headed in the opposite direction.",
+                        "On the map of the zoo, she also saw that in addition to the panda bear exhibit toward the back of the zoo, there was also a zebra exhibit in a far off corner of the zoo."
+                    ]
+                ]
+            },
+            "narrative-goal-uncertain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the zoo.\nWhen she walks into the zoo entry, she checks a map posted at the entrance.\nShe sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.\n\nMIDDLE\nShe takes a long route around the zoo, around the outer edge.\nShe comes up around the back of the panda exhibit.\n\nEND\nShe looks around the crowd at the front of the panda exhibit.",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the zoo.",
+                        "When she walks into the zoo entry, she checks a map posted at the entrance.",
+                        "She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo."
+                    ],
+                    [
+                        "She takes a long route around the zoo, around the outer edge.",
+                        "She comes up around the back of the panda exhibit."
+                    ],
+                    [
+                        "She looks around the crowd at the front of the panda exhibit."
+                    ]
+                ]
+            },
+            "narrative-goal-certain-no-resolution": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the zoo.\nShe wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.\nWhen she walks into the zoo entry, she checks a map posted at the entrance.\nShe sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.\n\nMIDDLE\nShe takes a long route around the zoo, around the outer edge.\nShe comes up around the back of the panda exhibit.\n\nEND\nShe looks around the crowd at the front of the panda exhibit.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Today Alice goes to the zoo.",
+                        "She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.",
+                        "When she walks into the zoo entry, she checks a map posted at the entrance.",
+                        "She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo."
+                    ],
+                    [
+                        "She takes a long route around the zoo, around the outer edge.",
+                        "She comes up around the back of the panda exhibit."
+                    ],
+                    [
+                        "She looks around the crowd at the front of the panda exhibit."
+                    ]
+                ]
+            },
+            "narrative-missing-detail": {
+                "raw_narrative": "",
+                "narrative-sentences": [
+                    [],
+                    [],
+                    []
+                ]
+            }
+        }
+    },
+    "stimuli-qs-for-settings": {
+        "forgotten-keys": {
+            "q-comprehension-openended-goal": {
+                "question": "What object is Alice looking for?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Where does she ultimately find the object?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "getting-lunch": {
+            "q-comprehension-openended-goal": {
+                "question": "What did Alice want for lunch?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Where did Alice ultimately go for lunch?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "catching-train": {
+            "q-comprehension-openended-goal": {
+                "question": "What is Alice trying to do?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Does Alice ultimately arrive in time?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "meeting-friend": {
+            "q-comprehension-openended-goal": {
+                "question": "What was Alice trying to do at the park?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Did Alice ultimately succeed?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "finding-friend": {
+            "q-comprehension-openended-goal": {
+                "question": "What was Alice trying to do at the mall?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Did Alice ultimately succeed?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "avoiding-boss": {
+            "q-comprehension-openended-goal": {
+                "question": "What was Alice trying to do at the zoo?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-comprehension-openended-outcome": {
+                "question": "Did Alice ultimately succeed?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        }
+    }
+}

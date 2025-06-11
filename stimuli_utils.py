@@ -1,8 +1,23 @@
-def generate_narrative_sentences(narrative):
+def generate_narrative_sentences(narrative, background=None):
+    if background:
+        background_sentences = [s.strip() for s in background.split('\n') if len(s.strip()) > 0]
     beginning_sentences = [s.strip() for s in narrative.split('BEGINNING')[-1].split('MIDDLE')[0].split('\n') if len(s.strip()) > 0]
     middle_sentences = [s.strip() for s in narrative.split('MIDDLE')[-1].split('END')[0].split('\n') if len(s.strip()) > 0]
     end_sentences = [s.strip() for s in narrative.split('END')[-1].split('\n') if len(s.strip()) > 0]
+    if background:
+        return [background_sentences] + [beginning_sentences, middle_sentences, end_sentences]
     return [beginning_sentences, middle_sentences, end_sentences]
+
+def generate_openended_confidence_question(raw_question_text):
+    question = raw_question_text.split('-')[0].strip()
+    options = "How confident are you in your answer?"
+    options_likert = ['Completely unsure', 'Somewhat unsure', 'Neutral', 'Somewhat sure', 'Completely sure']
+
+    return {
+        'question': question,
+        'options': options,
+        'options_likert_scale' : options_likert
+    }
 
 def generate_desire_question(raw_question_text):
     question = raw_question_text.split('-')[0].strip()
@@ -31,7 +46,7 @@ def generate_boolean_belief_question(raw_question_text):
 
 def generate_engaging_question(raw_question_text):
     question = raw_question_text.strip()
-    option_likert = ['The least fun passage about this topic', 'The most fun passage about this topic']
+    option_likert = ['The least fun story in this setting', 'The most fun story in this setting']
     return {
     'question': question,
        'option_likert_scale' : option_likert

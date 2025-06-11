@@ -11,14 +11,13 @@ import stimuli_utils
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--csv', type=str, default='stimuli/csv/engaging-narratives-jun-1.csv')
+parser.add_argument('--csv', type=str, default='stimuli/csv/engaging-narratives-jun-1-jun-10.csv')
 parser.add_argument('--output_dir', type=str, default='stimuli/json/')
 parser.add_argument('--output_file', type=str, required=True)
 
 # Main function.
 if __name__ == "__main__": 
     args = parser.parse_args()
-
     # Read in the CSV.
     with open(args.csv, "r") as f:
         # Use CSV dict-reader to read the base file.
@@ -27,11 +26,15 @@ if __name__ == "__main__":
 
     stimuli_for_settings = defaultdict(dict)
     stimuli_qs_for_settings = defaultdict(dict)
+    stimuli_backgrounds_for_settings = defaultdict()
     question_types = []
     narrative_types = []
 
     for stim in stimuli:
-        if stim['narrative-type'].startswith('q'):
+        if stim['narrative-type'].startswith('background'):
+            is_narrative = False
+            stim_dict = stimuli_backgrounds_for_settings
+        elif stim['narrative-type'].startswith('q'):
             is_narrative = False
             question_types.append(stim['narrative-type'])
             stim_dict = stimuli_qs_for_settings
@@ -44,13 +47,17 @@ if __name__ == "__main__":
             if is_narrative:
                 stim_dict[setting][stim['narrative-type']] = {
                     'raw_narrative' : stim[setting],
-                    'narrative-sentences' : stimuli_utils.generate_narrative_sentences(stim[setting])
+                    'narrative-sentences' : stimuli_utils.generate_narrative_sentences(stim[setting], background=stimuli_backgrounds_for_settings[setting])
                 }
             else:
-                if stim['narrative-type'] == 'q-comprehension-outcome':
+                if stim['narrative-type'] == 'background':
+                    stim_dict[setting] = stim[setting]
+                elif stim['narrative-type'] == 'q-comprehension-outcome':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_desire_question(stim[setting])
                 elif stim['narrative-type'] == 'q-comprehension-initial-belief':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_boolean_belief_question(stim[setting])
+                elif stim['narrative-type'] == 'q-comprehension-openended-goal' or stim['narrative-type'] == 'q-comprehension-openended-outcome':
+                    stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_openended_confidence_question(stim[setting])
                 elif stim['narrative-type'] == 'q-engaging':
                     stim_dict[setting][stim['narrative-type']] = stimuli_utils.generate_engaging_question(stim[setting])
     

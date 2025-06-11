@@ -1,0 +1,647 @@
+{
+    "settings": [
+        "forgotten-keys",
+        "getting-lunch",
+        "playing-sports",
+        "meeting-friend",
+        "finding-celebrity",
+        "stealing-cookies"
+    ],
+    "scenario-types": [
+        "narrative-each-sentence-uncertain-latent-uncertain-outcome",
+        "narrative-same-latent-likely-latent-likely-outcome",
+        "narrative-similar-events-likely-latent-likely-outcome"
+    ],
+    "question-types": [
+        "q-comprehension-openended-latent",
+        "q-comprehension-openended-outcome",
+        "q-engaging"
+    ],
+    "stimuli-for-settings": {
+        "forgotten-keys": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work.\nAs she is at her front door, she pauses, realizing she has forgotten somethng.\n\nMIDDLE\nShe walks down the hall, past the kitchen.\nShe steps into her bedroom.\nShe looks on top of the bedroom dresser drawer, where she sees a hat and a pair of earrings.\nShe looks in the bedroom closet, where she sees a pair of pants and a bathrobe.\n\nEND\nShe heads to the kitchen.\nShe checks the dining table, where she sees a bag of chips and an unreturned library book.\nShe heads back to the bedroom.\nShe thinks for a while.\nShe looks behind the dresser, where she sees her keys.\nShe picks up the keys and heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Every day, Alice goes to work.",
+                        "Whenever she leaves, she makes sure she has her lunchbox, her keys, and her favorite jacket.",
+                        "She usually hangs up her favorite jacket in her bedroom closet, puts her keys on top of the bedroom dresser, and places her lunchbox on the kitchen counter."
+                    ],
+                    [
+                        "Today Alice is about to go to work.",
+                        "As she is at her front door, she pauses, realizing she has forgotten somethng."
+                    ],
+                    [
+                        "She walks down the hall, past the kitchen.",
+                        "She steps into her bedroom.",
+                        "She looks on top of the bedroom dresser drawer, where she sees a hat and a pair of earrings.",
+                        "She looks in the bedroom closet, where she sees a pair of pants and a bathrobe."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the dining table, where she sees a bag of chips and an unreturned library book.",
+                        "She heads back to the bedroom.",
+                        "She thinks for a while.",
+                        "She looks behind the dresser, where she sees her keys.",
+                        "She picks up the keys and heads out the front door."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work.\nAs she is at her front door, she pauses, realizing she has her lunchbox and jacket, but has forgotten her keys.\n\nMIDDLE\nShe walks down the hall, past the kitchen.\nShe steps into her bedroom.\nShe looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings.\n\nEND\nShe picks up the keys and heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Every day, Alice goes to work.",
+                        "Whenever she leaves, she makes sure she has her lunchbox, her keys, and her favorite jacket.",
+                        "She usually hangs up her favorite jacket in her bedroom closet, puts her keys on top of the bedroom dresser, and places her lunchbox on the kitchen counter."
+                    ],
+                    [
+                        "Today Alice is about to go to work.",
+                        "As she is at her front door, she pauses, realizing she has her lunchbox and jacket, but has forgotten her keys."
+                    ],
+                    [
+                        "She walks down the hall, past the kitchen.",
+                        "She steps into her bedroom.",
+                        "She looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings."
+                    ],
+                    [
+                        "She picks up the keys and heads out the front door."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice is about to go to work.\nAs she is at her front door, she pauses, realizing she has forgotten her keys and her lunchbox.\n\nMIDDLE\nShe walks down the hall, past the kitchen.\nShe steps into her bedroom.\nShe looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings.\nShe picks up the keys.\n\nEND\nShe heads to the kitchen.\nShe checks the dining table, where she sees her lunchbox, a bag of chips and an unreturned library book.\nShe picks up the lunchbox.\nShe heads out the front door.",
+                "narrative-sentences": [
+                    [
+                        "Every day, Alice goes to work.",
+                        "Whenever she leaves, she makes sure she has her lunchbox, her keys, and her favorite jacket.",
+                        "She usually hangs up her favorite jacket in her bedroom closet, puts her keys on top of the bedroom dresser, and places her lunchbox on the kitchen counter."
+                    ],
+                    [
+                        "Today Alice is about to go to work.",
+                        "As she is at her front door, she pauses, realizing she has forgotten her keys and her lunchbox."
+                    ],
+                    [
+                        "She walks down the hall, past the kitchen.",
+                        "She steps into her bedroom.",
+                        "She looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings.",
+                        "She picks up the keys."
+                    ],
+                    [
+                        "She heads to the kitchen.",
+                        "She checks the dining table, where she sees her lunchbox, a bag of chips and an unreturned library book.",
+                        "She picks up the lunchbox.",
+                        "She heads out the front door."
+                    ]
+                ]
+            }
+        },
+        "getting-lunch": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice is at her office.\nAround lunchtime, she thinks about what she would like to have for lunch.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe sees the neighborhood pizza place as she approaches, which she can see is open today.\n\nEND\nShe continues on down the block and rounds the corner, arriving at the burger joint.\nIt turns out to be closed today.\nShe turns around and heads back around the corner.\nShe sees the pizza place again as she is heading back.\nShe passes it and walks on by, back to her office. \nShe gets a cup of ramen from the vending machine.\nShe returns to her office and eats her lunch.",
+                "narrative-sentences": [
+                    [
+                        "Every day around noon, Alice starts feeling hungry.",
+                        "There are a number of food options around her: a vending machine in the office building that sells ramen and chips, a pizza place down the block from her office, and a burger joint, which is past the pizza place and around the corner.",
+                        "The vending machine is always open, and both of the restaurants are usually open as well."
+                    ],
+                    [
+                        "Today Alice is at her office.",
+                        "Around lunchtime, she thinks about what she would like to have for lunch."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She sees the neighborhood pizza place as she approaches, which she can see is open today."
+                    ],
+                    [
+                        "She continues on down the block and rounds the corner, arriving at the burger joint.",
+                        "It turns out to be closed today.",
+                        "She turns around and heads back around the corner.",
+                        "She sees the pizza place again as she is heading back.",
+                        "She passes it and walks on by, back to her office.",
+                        "She gets a cup of ramen from the vending machine.",
+                        "She returns to her office and eats her lunch."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nAlice is at her office.\nAround lunchtime, she decides that she definitely does not want pizza, but would like a burger.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe sees the neighborhood pizza place as she approaches, which she can see is open today.\n\nEND\nShe continues on down the block and rounds the corner, arriving at the burger joint.\nIt is also open today.\nShe purchases a burger.\nShe turns around and heads back around the corner.\nShe sees the pizza place again as she is heading back.\nShe passes it and walks on by, back to her office. \nShe returns to her office and eats her lunch.",
+                "narrative-sentences": [
+                    [
+                        "Every day around noon, Alice starts feeling hungry.",
+                        "There are a number of food options around her: a vending machine in the office building that sells ramen and chips, a pizza place down the block from her office, and a burger joint, which is past the pizza place and around the corner.",
+                        "The vending machine is always open, and both of the restaurants are usually open as well."
+                    ],
+                    [
+                        "Alice is at her office.",
+                        "Around lunchtime, she decides that she definitely does not want pizza, but would like a burger."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She sees the neighborhood pizza place as she approaches, which she can see is open today."
+                    ],
+                    [
+                        "She continues on down the block and rounds the corner, arriving at the burger joint.",
+                        "It is also open today.",
+                        "She purchases a burger.",
+                        "She turns around and heads back around the corner.",
+                        "She sees the pizza place again as she is heading back.",
+                        "She passes it and walks on by, back to her office.",
+                        "She returns to her office and eats her lunch."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nAlice is at her office.\nAround lunchtime, she decides that she definitely does not want pizza, but would like a burger and a cup of ramen.\n\nMIDDLE\nShe leaves her office and walks down the block.\nShe sees the neighborhood pizza place as she approaches, which she can see is open today.\n\nEND\nShe continues on down the block and rounds the corner, arriving at the burger joint.\nIt is also open today.\nShe purchases a burger.\nShe turns around and heads back around the corner.\nShe sees the pizza place again as she is heading back.\nShe passes it and walks on by, back to her office. \nShe gets a cup of ramen from the vending machine.\nShe returns to her office and eats her lunch.\n",
+                "narrative-sentences": [
+                    [
+                        "Every day around noon, Alice starts feeling hungry.",
+                        "There are a number of food options around her: a vending machine in the office building that sells ramen and chips, a pizza place down the block from her office, and a burger joint, which is past the pizza place and around the corner.",
+                        "The vending machine is always open, and both of the restaurants are usually open as well."
+                    ],
+                    [
+                        "Alice is at her office.",
+                        "Around lunchtime, she decides that she definitely does not want pizza, but would like a burger and a cup of ramen."
+                    ],
+                    [
+                        "She leaves her office and walks down the block.",
+                        "She sees the neighborhood pizza place as she approaches, which she can see is open today."
+                    ],
+                    [
+                        "She continues on down the block and rounds the corner, arriving at the burger joint.",
+                        "It is also open today.",
+                        "She purchases a burger.",
+                        "She turns around and heads back around the corner.",
+                        "She sees the pizza place again as she is heading back.",
+                        "She passes it and walks on by, back to her office.",
+                        "She gets a cup of ramen from the vending machine.",
+                        "She returns to her office and eats her lunch."
+                    ]
+                ]
+            }
+        },
+        "playing-sports": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.\nShe's invited a new colleague, David, to join them.\nThey flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other.\n\nMIDDLE\nIn the first round, Alice and Bob lose to Carl and David.\nEveryone swaps out their paddles.\nIn the second round, Alice and Bob beat Carl and David by quite a bit. \nEveryone swaps out their paddles again, just to be fair.\n\nEND\nIn the third round, Alice and Bob's team beats Carl and David again, by another wide margin.\nTriumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.\n",
+                "narrative-sentences": [
+                    [
+                        "Each week, Alice plays a few rounds of ping pong with her colleagues after work.",
+                        "She's one of the best players out of all her colleagues.",
+                        "The rackets are a little old, though, and sometimes people will lose a round just because they happened to get a bad paddle.",
+                        "Alice and her friends play three rounds of doubles together, and whoever loses the most rounds out of three has to buy the other team lunch the next day."
+                    ],
+                    [
+                        "Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.",
+                        "She's invited a new colleague, David, to join them.",
+                        "They flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other."
+                    ],
+                    [
+                        "In the first round, Alice and Bob lose to Carl and David.",
+                        "Everyone swaps out their paddles.",
+                        "In the second round, Alice and Bob beat Carl and David by quite a bit.",
+                        "Everyone swaps out their paddles again, just to be fair."
+                    ],
+                    [
+                        "In the third round, Alice and Bob's team beats Carl and David again, by another wide margin.",
+                        "Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.\nShe's invited a new colleague, David, to join them, who is completely inexperienced at ping pong.\nThey flip a few coins to pick teams, and this time Alice and Bob are on one team, and David and Carl take the other.\n\nMIDDLE\nIn the first round, Alice and Bob beat Anna and Carl.\nEveryone swaps out their paddles.\nIn the second round, Alice and Bob beat Anna and Carl by quite a bit. \nEveryone swaps out their paddles again, just to be fair.\n\nEND\nIn the third round, Alice and Bob's team beats Anna and Carl again, by another wide margin.\nTriumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.\n",
+                "narrative-sentences": [
+                    [
+                        "Each week, Alice plays a few rounds of ping pong with her colleagues after work.",
+                        "She's one of the best players out of all her colleagues.",
+                        "The rackets are a little old, though, and sometimes people will lose a round just because they happened to get a bad paddle.",
+                        "Alice and her friends play three rounds of doubles together, and whoever loses the most rounds out of three has to buy the other team lunch the next day."
+                    ],
+                    [
+                        "Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.",
+                        "She's invited a new colleague, David, to join them, who is completely inexperienced at ping pong.",
+                        "They flip a few coins to pick teams, and this time Alice and Bob are on one team, and David and Carl take the other."
+                    ],
+                    [
+                        "In the first round, Alice and Bob beat Anna and Carl.",
+                        "Everyone swaps out their paddles.",
+                        "In the second round, Alice and Bob beat Anna and Carl by quite a bit.",
+                        "Everyone swaps out their paddles again, just to be fair."
+                    ],
+                    [
+                        "In the third round, Alice and Bob's team beats Anna and Carl again, by another wide margin.",
+                        "Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.\nShe's invited a new colleague, David, to join them, who is completely inexperienced at ping pong, so Alice says she'll take one of the worst paddles as a handicap for the first round.\nThey flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other.\n\nMIDDLE\nIn the first round, Alice and Bob lose to Carl and David.\nEveryone swaps out their paddles.\nIn the second round, Alice and Bob beat Carl and David by quite a bit. \nEveryone swaps out their paddles again, just to be fair.\n\nEND\nIn the third round, Alice and Bob's team beats Carl and David again, by another wide margin.\nTriumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.\n",
+                "narrative-sentences": [
+                    [
+                        "Each week, Alice plays a few rounds of ping pong with her colleagues after work.",
+                        "She's one of the best players out of all her colleagues.",
+                        "The rackets are a little old, though, and sometimes people will lose a round just because they happened to get a bad paddle.",
+                        "Alice and her friends play three rounds of doubles together, and whoever loses the most rounds out of three has to buy the other team lunch the next day."
+                    ],
+                    [
+                        "Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.",
+                        "She's invited a new colleague, David, to join them, who is completely inexperienced at ping pong, so Alice says she'll take one of the worst paddles as a handicap for the first round.",
+                        "They flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other."
+                    ],
+                    [
+                        "In the first round, Alice and Bob lose to Carl and David.",
+                        "Everyone swaps out their paddles.",
+                        "In the second round, Alice and Bob beat Carl and David by quite a bit.",
+                        "Everyone swaps out their paddles again, just to be fair."
+                    ],
+                    [
+                        "In the third round, Alice and Bob's team beats Carl and David again, by another wide margin.",
+                        "Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day."
+                    ]
+                ]
+            }
+        },
+        "meeting-friend": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe walks past the grassy lawn.\nShe continues on past the pool.\nShe comes to the baseball game just as it is beginning.\nAlice enters the field, and sits down on the bleachers.\n\nEND\nShe sits for twenty minutes.\nAfter twenty minutes pass, she gets up and looks around.\nSh starts walking back to the park entrance.\nShe finds her friend Billy waiting for her at the entrance.\nThey hug, and head back to the baseball game together.\n",
+                "narrative-sentences": [
+                    [
+                        "On Saturdays, Alice often goes to the park.",
+                        "The park has lots of things to do -- a grassy lawn, a community pool, and a baseball field where people can watch the local game.",
+                        "She usually arranges to meet up with her friend Billy, where they'll often picnic, swim, or watch a game together."
+                    ],
+                    [
+                        "Today Alice goes to the park.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She walks past the grassy lawn.",
+                        "She continues on past the pool.",
+                        "She comes to the baseball game just as it is beginning.",
+                        "Alice enters the field, and sits down on the bleachers."
+                    ],
+                    [
+                        "She sits for twenty minutes.",
+                        "After twenty minutes pass, she gets up and looks around.",
+                        "Sh starts walking back to the park entrance.",
+                        "She finds her friend Billy waiting for her at the entrance.",
+                        "They hug, and head back to the baseball game together."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park, where she plans to meet her friend Billy to watch a baseball game together.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe walks past the grassy lawn.\nShe continues on past the pool.\nShe comes to the baseball game just as it is beginning.\nAlice enters the field, and sits down on the bleachers.\n\nEND\nBilly is there, as planned.\nThey hug, and watch the baseball game together.\n\n",
+                "narrative-sentences": [
+                    [
+                        "On Saturdays, Alice often goes to the park.",
+                        "The park has lots of things to do -- a grassy lawn, a community pool, and a baseball field where people can watch the local game.",
+                        "She usually arranges to meet up with her friend Billy, where they'll often picnic, swim, or watch a game together."
+                    ],
+                    [
+                        "Today Alice goes to the park, where she plans to meet her friend Billy to watch a baseball game together.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She walks past the grassy lawn.",
+                        "She continues on past the pool.",
+                        "She comes to the baseball game just as it is beginning.",
+                        "Alice enters the field, and sits down on the bleachers."
+                    ],
+                    [
+                        "Billy is there, as planned.",
+                        "They hug, and watch the baseball game together."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice goes to the park, where she plans to watch part of the baseball game, and then head out after twenty minutes to meet Billy at the front of the park to help him carry food in for a picnic.\nUpon arriving at the park entrance, she walks briskly inside.\n\nMIDDLE\nShe walks past the grassy lawn.\nShe continues on past the pool.\nShe comes to the baseball game just as it is beginning.\nAlice enters the field, and sits down on the bleachers.\n\nEND\nShe sits for twenty minutes.\nAfter twenty minutes pass, she gets up.\nSh starts walking back to the park entrance.\nShe finds her friend Billy waiting for her at the entrance.\nThey hug, and head back to the picnic lawn together.\n",
+                "narrative-sentences": [
+                    [
+                        "On Saturdays, Alice often goes to the park.",
+                        "The park has lots of things to do -- a grassy lawn, a community pool, and a baseball field where people can watch the local game.",
+                        "She usually arranges to meet up with her friend Billy, where they'll often picnic, swim, or watch a game together."
+                    ],
+                    [
+                        "Today Alice goes to the park, where she plans to watch part of the baseball game, and then head out after twenty minutes to meet Billy at the front of the park to help him carry food in for a picnic.",
+                        "Upon arriving at the park entrance, she walks briskly inside."
+                    ],
+                    [
+                        "She walks past the grassy lawn.",
+                        "She continues on past the pool.",
+                        "She comes to the baseball game just as it is beginning.",
+                        "Alice enters the field, and sits down on the bleachers."
+                    ],
+                    [
+                        "She sits for twenty minutes.",
+                        "After twenty minutes pass, she gets up.",
+                        "Sh starts walking back to the park entrance.",
+                        "She finds her friend Billy waiting for her at the entrance.",
+                        "They hug, and head back to the picnic lawn together."
+                    ]
+                ]
+            }
+        },
+        "finding-celebrity": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice heads to the mall.\nShe arrives at the mall entrance, where she sees the shoe store.\n\nMIDDLE\nShe looks inside the shoe store.\nShe doesn't see anyone there but a few kids buying shoes.\n\nEND\nShe goes inside the next store down, which is the bookstore.\nShe looks around, then heads back out.\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe looks around.\nShe spots the celebrity buying pizza in the corner.\nShe runs up to him and gets his picture.\n",
+                "narrative-sentences": [
+                    [
+                        "There is a mall in Alice's town.",
+                        "It has a shoe store, a bookstore, and a foodcourt.",
+                        "She's heard that her favorite celebrity might be at the mall today, and wants to go there to find him.",
+                        "However, she knows he travels discreetly and that the odds of catching him there are pretty slim."
+                    ],
+                    [
+                        "Today Alice heads to the mall.",
+                        "She arrives at the mall entrance, where she sees the shoe store."
+                    ],
+                    [
+                        "She looks inside the shoe store.",
+                        "She doesn't see anyone there but a few kids buying shoes."
+                    ],
+                    [
+                        "She goes inside the next store down, which is the bookstore.",
+                        "She looks around, then heads back out.",
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She looks around.",
+                        "She spots the celebrity buying pizza in the corner.",
+                        "She runs up to him and gets his picture."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice heads to the mall, because she's just gotten a call from her friend -- the celebrity is at the food court, buying pizza.\nShe arrives at the mall entrance, where she sees the shoe store.\n\nMIDDLE\nShe passes the shoe store.\n\nEND\nShe passes the next store down, which is the bookstore.\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe looks around.\nShe spots the celebrity buying pizza in the corner.\nShe runs up to him and gets his picture.\n",
+                "narrative-sentences": [
+                    [
+                        "There is a mall in Alice's town.",
+                        "It has a shoe store, a bookstore, and a foodcourt.",
+                        "She's heard that her favorite celebrity might be at the mall today, and wants to go there to find him.",
+                        "However, she knows he travels discreetly and that the odds of catching him there are pretty slim."
+                    ],
+                    [
+                        "Today Alice heads to the mall, because she's just gotten a call from her friend -- the celebrity is at the food court, buying pizza.",
+                        "She arrives at the mall entrance, where she sees the shoe store."
+                    ],
+                    [
+                        "She passes the shoe store."
+                    ],
+                    [
+                        "She passes the next store down, which is the bookstore.",
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She looks around.",
+                        "She spots the celebrity buying pizza in the corner.",
+                        "She runs up to him and gets his picture."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday Alice heads to the mall, though she knows it's very unlikely she will actually see the celebrity. \nShe arrives at the mall entrance, where she sees the shoe store.\n\nMIDDLE\nShe looks inside the shoe store.\nShe doesn't see anyone there but a few kids buying shoes.\n\nEND\nShe goes inside the next store down, which is the bookstore.\nShe looks around, then heads back out.\nShe walks down the mall hallway.\nShe comes to the foodcourt.\nShe looks around.\nShe doesn't see the celebrity.\nShe leaves the mall.\n",
+                "narrative-sentences": [
+                    [
+                        "There is a mall in Alice's town.",
+                        "It has a shoe store, a bookstore, and a foodcourt.",
+                        "She's heard that her favorite celebrity might be at the mall today, and wants to go there to find him.",
+                        "However, she knows he travels discreetly and that the odds of catching him there are pretty slim."
+                    ],
+                    [
+                        "Today Alice heads to the mall, though she knows it's very unlikely she will actually see the celebrity.",
+                        "She arrives at the mall entrance, where she sees the shoe store."
+                    ],
+                    [
+                        "She looks inside the shoe store.",
+                        "She doesn't see anyone there but a few kids buying shoes."
+                    ],
+                    [
+                        "She goes inside the next store down, which is the bookstore.",
+                        "She looks around, then heads back out.",
+                        "She walks down the mall hallway.",
+                        "She comes to the foodcourt.",
+                        "She looks around.",
+                        "She doesn't see the celebrity.",
+                        "She leaves the mall."
+                    ]
+                ]
+            }
+        },
+        "stealing-cookies": {
+            "narrative-each-sentence-uncertain-latent-uncertain-outcome": {
+                "raw_narrative": "BEGINNING\nToday is Sunday, and Alice is visiting her Dad's house.\nHer Dad is home.\n\nMIDDLE\nShe greets him in the kitchen.\nAlice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.\nShe opens the pantry shelf.\nThere are lightbulbs there, and she does see a bar of chocolate, though no cookies.\nHer Dad takes a seat in the easy chair in his kitchen, where he asks her about her day.\n\nEND\nShe takes down a lightbulb from the pantry shelf.\nAlice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.\nShe goes to the bathroom.\nShe looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.\nWhen she leaves the bathroom, she sees her Dad in the hall, waiting to use the bathroom.\nHe goes into the bathroom.\nShe goes back to the kitchen and puts the sponges on the kitchen counter.\nShe opens the pantry shelf and takes a bar of chocolate.\nShe eats it.\nHer Dad comes back into the kitchen.\nShe starts changing the lightbulb, and her Dad thanks her for all her help around the house.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice often visits her Dad on the weekends.",
+                        "Her Dad has a sweet tooth, and always has at least one bar of chocolate and a box of cookies in the house.",
+                        "He hides them, because he knows that Alice also has a sweet tooth, and doesn't want her to take them.",
+                        "She knows his hiding places well, and he often hides his snacks in the highest pantry shelf in the kitchen, and in the cupboard in the bathroom.",
+                        "Her Dad is often not home, which makes sneaking a snack pretty easy.",
+                        "On the rare occasion that he is, he is pretty watchful, since he doesn't want her to take his snacks!"
+                    ],
+                    [
+                        "Today is Sunday, and Alice is visiting her Dad's house.",
+                        "Her Dad is home."
+                    ],
+                    [
+                        "She greets him in the kitchen.",
+                        "Alice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.",
+                        "She opens the pantry shelf.",
+                        "There are lightbulbs there, and she does see a bar of chocolate, though no cookies.",
+                        "Her Dad takes a seat in the easy chair in his kitchen, where he asks her about her day."
+                    ],
+                    [
+                        "She takes down a lightbulb from the pantry shelf.",
+                        "Alice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.",
+                        "She goes to the bathroom.",
+                        "She looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.",
+                        "When she leaves the bathroom, she sees her Dad in the hall, waiting to use the bathroom.",
+                        "He goes into the bathroom.",
+                        "She goes back to the kitchen and puts the sponges on the kitchen counter.",
+                        "She opens the pantry shelf and takes a bar of chocolate.",
+                        "She eats it.",
+                        "Her Dad comes back into the kitchen.",
+                        "She starts changing the lightbulb, and her Dad thanks her for all her help around the house."
+                    ]
+                ]
+            },
+            "narrative-same-latent-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday is Sunday, and Alice is visiting her Dad's house.\nHer Dad is not home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies.\n\nMIDDLE\nShe goes into the kitchen.\nShe opens the pantry shelf.\nThere are lightbulbs there, and she does see a bar of chocolate, though no cookies.\n\nEND\nShe takes the bar of chocolate.\nShe eats it and finishes it before her Dad comes back.\n\n",
+                "narrative-sentences": [
+                    [
+                        "Alice often visits her Dad on the weekends.",
+                        "Her Dad has a sweet tooth, and always has at least one bar of chocolate and a box of cookies in the house.",
+                        "He hides them, because he knows that Alice also has a sweet tooth, and doesn't want her to take them.",
+                        "She knows his hiding places well, and he often hides his snacks in the highest pantry shelf in the kitchen, and in the cupboard in the bathroom.",
+                        "Her Dad is often not home, which makes sneaking a snack pretty easy.",
+                        "On the rare occasion that he is, he is pretty watchful, since he doesn't want her to take his snacks!"
+                    ],
+                    [
+                        "Today is Sunday, and Alice is visiting her Dad's house.",
+                        "Her Dad is not home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies."
+                    ],
+                    [
+                        "She goes into the kitchen.",
+                        "She opens the pantry shelf.",
+                        "There are lightbulbs there, and she does see a bar of chocolate, though no cookies."
+                    ],
+                    [
+                        "She takes the bar of chocolate.",
+                        "She eats it and finishes it before her Dad comes back."
+                    ]
+                ]
+            },
+            "narrative-similar-events-likely-latent-likely-outcome": {
+                "raw_narrative": "BEGINNING\nToday is Sunday, and Alice is visiting her Dad's house.\nHer Dad is home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies.\n\nMIDDLE\nShe greets him in the kitchen.\nAlice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.\nShe opens the pantry shelf.\nThere are lightbulbs there, and she does see a bar of chocolate, though no cookies.\nHer Dad takes a seat in the easy chair in his kitchen, where he asks her about her day.\n\nEND\nShe takes down a lightbulb from the pantry shelf.\nAlice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.\nShe goes to the bathroom.\nShe looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.\nShe goes back to the kitchen and puts the sponges on the kitchen counter.\nShe starts changing the lightbulb, and her Dad thanks her for all her help around the house.\n",
+                "narrative-sentences": [
+                    [
+                        "Alice often visits her Dad on the weekends.",
+                        "Her Dad has a sweet tooth, and always has at least one bar of chocolate and a box of cookies in the house.",
+                        "He hides them, because he knows that Alice also has a sweet tooth, and doesn't want her to take them.",
+                        "She knows his hiding places well, and he often hides his snacks in the highest pantry shelf in the kitchen, and in the cupboard in the bathroom.",
+                        "Her Dad is often not home, which makes sneaking a snack pretty easy.",
+                        "On the rare occasion that he is, he is pretty watchful, since he doesn't want her to take his snacks!"
+                    ],
+                    [
+                        "Today is Sunday, and Alice is visiting her Dad's house.",
+                        "Her Dad is home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies."
+                    ],
+                    [
+                        "She greets him in the kitchen.",
+                        "Alice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.",
+                        "She opens the pantry shelf.",
+                        "There are lightbulbs there, and she does see a bar of chocolate, though no cookies.",
+                        "Her Dad takes a seat in the easy chair in his kitchen, where he asks her about her day."
+                    ],
+                    [
+                        "She takes down a lightbulb from the pantry shelf.",
+                        "Alice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.",
+                        "She goes to the bathroom.",
+                        "She looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.",
+                        "She goes back to the kitchen and puts the sponges on the kitchen counter.",
+                        "She starts changing the lightbulb, and her Dad thanks her for all her help around the house."
+                    ]
+                ]
+            }
+        }
+    },
+    "stimuli-qs-for-settings": {
+        "forgotten-keys": {
+            "q-comprehension-openended-outcome": {
+                "question": "Where does she ultimately find them?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "getting-lunch": {
+            "q-comprehension-openended-outcome": {
+                "question": "What did Alice ultimately have for lunch?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "playing-sports": {
+            "q-comprehension-openended-outcome": {
+                "question": "Did Alice and Bob get a free lunch the next day?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "meeting-friend": {
+            "q-comprehension-openended-outcome": {
+                "question": "Where did she find Billy?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "finding-celebrity": {
+            "q-comprehension-openended-outcome": {
+                "question": "Does Alice ultimately find him?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        },
+        "stealing-cookies": {
+            "q-comprehension-openended-outcome": {
+                "question": "Did she ultimately succeed?",
+                "options": "How confident are you in your answer?",
+                "options_likert_scale": [
+                    "Completely unsure",
+                    "Somewhat unsure",
+                    "Neutral",
+                    "Somewhat sure",
+                    "Completely sure"
+                ]
+            },
+            "q-engaging": {
+                "question": "How fun was that story to read?",
+                "option_likert_scale": [
+                    "The least fun story in this setting",
+                    "The most fun story in this setting"
+                ]
+            }
+        }
+    }
+}

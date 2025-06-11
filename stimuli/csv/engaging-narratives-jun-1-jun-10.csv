@@ -1,0 +1,300 @@
+narrative-type,forgotten-keys,getting-lunch,playing-sports,meeting-friend,finding-celebrity,stealing-cookies
+q-comprehension-openended-latent,What things did Alice forget?,What did Alice want for lunch?,Is David a better ping pong player than Alice?,What did Alice want to do with Billy at the park today?,Where was the celebrity?,What snack did Alice want to take?
+q-comprehension-openended-outcome,Where does she ultimately find them?,What did Alice ultimately have for lunch?,Did Alice and Bob get a free lunch the next day?,Where did she find Billy?,Does Alice ultimately find him?,Did she ultimately succeed?
+q-engaging,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?
+background,"Every day, Alice goes to work.
+Whenever she leaves, she makes sure she has her lunchbox, her keys, and her favorite jacket.
+She usually hangs up her favorite jacket in her bedroom closet, puts her keys on top of the bedroom dresser, and places her lunchbox on the kitchen counter.","Every day around noon, Alice starts feeling hungry.
+There are a number of food options around her: a vending machine in the office building that sells ramen and chips, a pizza place down the block from her office, and a burger joint, which is past the pizza place and around the corner.
+The vending machine is always open, and both of the restaurants are usually open as well. ","Each week, Alice plays a few rounds of ping pong with her colleagues after work.
+She's one of the best players out of all her colleagues.
+The rackets are a little old, though, and sometimes people will lose a round just because they happened to get a bad paddle.
+Alice and her friends play three rounds of doubles together, and whoever loses the most rounds out of three has to buy the other team lunch the next day.","On Saturdays, Alice often goes to the park.
+The park has lots of things to do -- a grassy lawn, a community pool, and a baseball field where people can watch the local game.
+She usually arranges to meet up with her friend Billy, where they'll often picnic, swim, or watch a game together.","There is a mall in Alice's town.
+It has a shoe store, a bookstore, and a foodcourt. 
+She's heard that her favorite celebrity might be at the mall today, and wants to go there to find him.
+However, she knows he travels discreetly and that the odds of catching him there are pretty slim.","Alice often visits her Dad on the weekends.
+Her Dad has a sweet tooth, and always has at least one bar of chocolate and a box of cookies in the house.
+He hides them, because he knows that Alice also has a sweet tooth, and doesn't want her to take them. 
+She knows his hiding places well, and he often hides his snacks in the highest pantry shelf in the kitchen, and in the cupboard in the bathroom.
+Her Dad is often not home, which makes sneaking a snack pretty easy.
+On the rare occasion that he is, he is pretty watchful, since he doesn't want her to take his snacks!"
+narrative-each-sentence-uncertain-latent-uncertain-outcome,"BEGINNING
+Today Alice is about to go to work.
+As she is at her front door, she pauses, realizing she has forgotten somethng.
+
+MIDDLE
+She walks down the hall, past the kitchen.
+She steps into her bedroom.
+She looks on top of the bedroom dresser drawer, where she sees a hat and a pair of earrings.
+She looks in the bedroom closet, where she sees a pair of pants and a bathrobe.
+
+END
+She heads to the kitchen.
+She checks the dining table, where she sees a bag of chips and an unreturned library book.
+She heads back to the bedroom.
+She thinks for a while.
+She looks behind the dresser, where she sees her keys.
+She picks up the keys and heads out the front door.","BEGINNING
+Today Alice is at her office.
+Around lunchtime, she thinks about what she would like to have for lunch.
+
+MIDDLE
+She leaves her office and walks down the block.
+She sees the neighborhood pizza place as she approaches, which she can see is open today.
+
+END
+She continues on down the block and rounds the corner, arriving at the burger joint.
+It turns out to be closed today.
+She turns around and heads back around the corner.
+She sees the pizza place again as she is heading back.
+She passes it and walks on by, back to her office. 
+She gets a cup of ramen from the vending machine.
+She returns to her office and eats her lunch.","BEGINNING
+Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.
+She's invited a new colleague, David, to join them.
+They flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other.
+
+MIDDLE
+In the first round, Alice and Bob lose to Carl and David.
+Everyone swaps out their paddles.
+In the second round, Alice and Bob beat Carl and David by quite a bit. 
+Everyone swaps out their paddles again, just to be fair.
+
+END
+In the third round, Alice and Bob's team beats Carl and David again, by another wide margin.
+Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.
+","BEGINNING
+Today Alice goes to the park.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She walks past the grassy lawn.
+She continues on past the pool.
+She comes to the baseball game just as it is beginning.
+Alice enters the field, and sits down on the bleachers.
+
+END
+She sits for twenty minutes.
+After twenty minutes pass, she gets up and looks around.
+Sh starts walking back to the park entrance.
+She finds her friend Billy waiting for her at the entrance.
+They hug, and head back to the baseball game together.
+","BEGINNING
+Today Alice heads to the mall.
+She arrives at the mall entrance, where she sees the shoe store.
+
+MIDDLE
+She looks inside the shoe store.
+She doesn't see anyone there but a few kids buying shoes.
+
+END
+She goes inside the next store down, which is the bookstore.
+She looks around, then heads back out.
+She walks down the mall hallway.
+She comes to the foodcourt.
+She looks around.
+She spots the celebrity buying pizza in the corner.
+She runs up to him and gets his picture.
+","BEGINNING
+Today is Sunday, and Alice is visiting her Dad's house.
+Her Dad is home.
+
+MIDDLE
+She greets him in the kitchen.
+Alice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.
+She opens the pantry shelf.
+There are lightbulbs there, and she does see a bar of chocolate, though no cookies.
+Her Dad takes a seat in the easy chair in his kitchen, where he asks her about her day.
+
+END
+She takes down a lightbulb from the pantry shelf.
+Alice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.
+She goes to the bathroom.
+She looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.
+When she leaves the bathroom, she sees her Dad in the hall, waiting to use the bathroom.
+He goes into the bathroom.
+She goes back to the kitchen and puts the sponges on the kitchen counter.
+She opens the pantry shelf and takes a bar of chocolate.
+She eats it.
+Her Dad comes back into the kitchen.
+She starts changing the lightbulb, and her Dad thanks her for all her help around the house.
+"
+narrative-same-latent-likely-latent-likely-outcome,"BEGINNING
+Today Alice is about to go to work.
+As she is at her front door, she pauses, realizing she has her lunchbox and jacket, but has forgotten her keys.
+
+MIDDLE
+She walks down the hall, past the kitchen.
+She steps into her bedroom.
+She looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings.
+
+END
+She picks up the keys and heads out the front door.","BEGINNING
+Alice is at her office.
+Around lunchtime, she decides that she definitely does not want pizza, but would like a burger.
+
+MIDDLE
+She leaves her office and walks down the block.
+She sees the neighborhood pizza place as she approaches, which she can see is open today.
+
+END
+She continues on down the block and rounds the corner, arriving at the burger joint.
+It is also open today.
+She purchases a burger.
+She turns around and heads back around the corner.
+She sees the pizza place again as she is heading back.
+She passes it and walks on by, back to her office. 
+She returns to her office and eats her lunch.","BEGINNING
+Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.
+She's invited a new colleague, David, to join them, who is completely inexperienced at ping pong.
+They flip a few coins to pick teams, and this time Alice and Bob are on one team, and David and Carl take the other.
+
+MIDDLE
+In the first round, Alice and Bob beat Anna and Carl.
+Everyone swaps out their paddles.
+In the second round, Alice and Bob beat Anna and Carl by quite a bit. 
+Everyone swaps out their paddles again, just to be fair.
+
+END
+In the third round, Alice and Bob's team beats Anna and Carl again, by another wide margin.
+Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.
+","BEGINNING
+Today Alice goes to the park, where she plans to meet her friend Billy to watch a baseball game together.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She walks past the grassy lawn.
+She continues on past the pool.
+She comes to the baseball game just as it is beginning.
+Alice enters the field, and sits down on the bleachers.
+
+END
+Billy is there, as planned.
+They hug, and watch the baseball game together.
+
+","BEGINNING
+Today Alice heads to the mall, because she's just gotten a call from her friend -- the celebrity is at the food court, buying pizza.
+She arrives at the mall entrance, where she sees the shoe store.
+
+MIDDLE
+She passes the shoe store.
+
+END
+She passes the next store down, which is the bookstore.
+She walks down the mall hallway.
+She comes to the foodcourt.
+She looks around.
+She spots the celebrity buying pizza in the corner.
+She runs up to him and gets his picture.
+","BEGINNING
+Today is Sunday, and Alice is visiting her Dad's house.
+Her Dad is not home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies.
+
+MIDDLE
+She goes into the kitchen.
+She opens the pantry shelf.
+There are lightbulbs there, and she does see a bar of chocolate, though no cookies.
+
+END
+She takes the bar of chocolate.
+She eats it and finishes it before her Dad comes back.
+
+"
+narrative-similar-events-likely-latent-likely-outcome,"BEGINNING
+Today Alice is about to go to work.
+As she is at her front door, she pauses, realizing she has forgotten her keys and her lunchbox.
+
+MIDDLE
+She walks down the hall, past the kitchen.
+She steps into her bedroom.
+She looks on top of the bedroom dresser drawer, where she sees her keys, a hat, and a pair of earrings.
+She picks up the keys.
+
+END
+She heads to the kitchen.
+She checks the dining table, where she sees her lunchbox, a bag of chips and an unreturned library book.
+She picks up the lunchbox.
+She heads out the front door.","BEGINNING
+Alice is at her office.
+Around lunchtime, she decides that she definitely does not want pizza, but would like a burger and a cup of ramen.
+
+MIDDLE
+She leaves her office and walks down the block.
+She sees the neighborhood pizza place as she approaches, which she can see is open today.
+
+END
+She continues on down the block and rounds the corner, arriving at the burger joint.
+It is also open today.
+She purchases a burger.
+She turns around and heads back around the corner.
+She sees the pizza place again as she is heading back.
+She passes it and walks on by, back to her office. 
+She gets a cup of ramen from the vending machine.
+She returns to her office and eats her lunch.
+","BEGINNING
+Today Alice arrives, where she sees her colleagues Bob and Carl, ready to play some ping pong.
+She's invited a new colleague, David, to join them, who is completely inexperienced at ping pong, so Alice says she'll take one of the worst paddles as a handicap for the first round.
+They flip a few coins to pick teams, and this time Alice and Bob are on one team, and Carl and David are on the other.
+
+MIDDLE
+In the first round, Alice and Bob lose to Carl and David.
+Everyone swaps out their paddles.
+In the second round, Alice and Bob beat Carl and David by quite a bit. 
+Everyone swaps out their paddles again, just to be fair.
+
+END
+In the third round, Alice and Bob's team beats Carl and David again, by another wide margin.
+Triumphant, Alice and Bob give each other a high-five, and enjoy their free lunch the next day.
+","BEGINNING
+Today Alice goes to the park, where she plans to watch part of the baseball game, and then head out after twenty minutes to meet Billy at the front of the park to help him carry food in for a picnic.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She walks past the grassy lawn.
+She continues on past the pool.
+She comes to the baseball game just as it is beginning.
+Alice enters the field, and sits down on the bleachers.
+
+END
+She sits for twenty minutes.
+After twenty minutes pass, she gets up.
+Sh starts walking back to the park entrance.
+She finds her friend Billy waiting for her at the entrance.
+They hug, and head back to the picnic lawn together.
+","BEGINNING
+Today Alice heads to the mall, though she knows it's very unlikely she will actually see the celebrity. 
+She arrives at the mall entrance, where she sees the shoe store.
+
+MIDDLE
+She looks inside the shoe store.
+She doesn't see anyone there but a few kids buying shoes.
+
+END
+She goes inside the next store down, which is the bookstore.
+She looks around, then heads back out.
+She walks down the mall hallway.
+She comes to the foodcourt.
+She looks around.
+She doesn't see the celebrity.
+She leaves the mall.
+","BEGINNING
+Today is Sunday, and Alice is visiting her Dad's house.
+Her Dad is home, and Alice thinks about how much she wants a bar of chocolate, though she doesn't care for his cookies.
+
+MIDDLE
+She greets him in the kitchen.
+Alice tells her Dad that she is going to get a lightbulb, which he keeps in the highest pantry shelf.
+She opens the pantry shelf.
+There are lightbulbs there, and she does see a bar of chocolate, though no cookies.
+Her Dad takes a seat in the easy chair in his kitchen, where he asks her about her day.
+
+END
+She takes down a lightbulb from the pantry shelf.
+Alice tells her Dad that she is going to get some more sponges for the kitchen from the bathroom.
+She goes to the bathroom.
+She looks in the bathroom cupboard, where she sees the sponges and a box of cookies, though no chocolate.
+She goes back to the kitchen and puts the sponges on the kitchen counter.
+She starts changing the lightbulb, and her Dad thanks her for all her help around the house.
+"

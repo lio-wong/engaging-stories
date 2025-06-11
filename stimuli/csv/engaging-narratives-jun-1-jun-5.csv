@@ -1,0 +1,595 @@
+narrative-type,forgotten-keys,getting-lunch,catching-train,meeting-friend,finding-friend,avoiding-boss
+q-comprehension-openended-goal,What object is Alice looking for?,What did Alice want for lunch?,What is Alice trying to do?,What was Alice trying to do at the park?,What was Alice trying to do at the mall?,What was Alice trying to do at the zoo?
+q-comprehension-openended-outcome,Where does she ultimately find the object?,Where did Alice ultimately go for lunch?,Does Alice ultimately arrive in time?,Did Alice ultimately succeed?,Did Alice ultimately succeed?,Did Alice ultimately succeed?
+q-engaging,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?,How fun was that story to read?
+narrative-goal-uncertain-outcome-uncertain,"BEGINNING
+Today Alice is about to go to work. 
+She is at her front door, getting ready to leave.
+She pauses, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+
+END
+She heads to the kitchen.
+She checks the dining table, where she sees a bag of chips and an unreturned library book.
+She heads back to the bedroom.
+She thinks for a while.
+She looks behind the dresser, where she sees her keys.
+She picks up the keys and heads out the front door.","BEGINNING
+Today Alice is at her office.
+Around lunchtime, she starts feeling pretty hungry.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes the neighborhood pizza place, seeing that it is open today.
+
+END
+She rounds the corner.
+She walks a few blocks more to the town burger joint. 
+She sees that the burger joint is closed.
+She turns around and walks the few blocks back to the corner.
+She walks past the pizza place and heads back to her office.
+There, she gets a bag of chips from the vending machine and has that for lunch.
+ 
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has less than half an hour to get where she needs to go uptown.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+The cab driver says he knows a shortcut.
+They take the shortcut and arrive at a large brick building.
+She checks the map -- she needs to go downstairs and down a long hallway.
+She runs down the stairs and down the hall.
+She arrives just in time to get aboard a train.","BEGINNING
+Today Alice goes to the park.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She stands there for twenty minutes.
+After twenty minutes pass, she starts walking back to the park entrance.
+She finds her friend Billy waiting for her at the entrance.
+They head back to the baseball game together.
+","BEGINNING
+Today Alice goes to the mall.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+She sees her friend Belinda here and taps her on the shoulder.
+Belinda turns around and jumps up when she sees Alice.
+They hug, and get an ice cream together to share at the foodcourt.
+","BEGINNING
+Today Alice goes to the zoo.
+When she walks into the zoo entry, she checks a map posted at the entrance.
+She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.
+
+MIDDLE
+She takes a long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit.
+
+END
+She looks around the crowd at the front of the panda exhibit.
+She walks to the front of the exhibit and looks at the pandas for a while.
+As she is standing there, she sees her boss, Joe, approaching the exhibit.
+She turns around and heads in the opposite direction.
+She takes the long route again to the entrance, where she leaves."
+narrative-goal-certain-outcome-uncertain,"BEGINNING
+Today Alice is about to go to work. 
+She is at her front door, getting ready to leave.
+She pauses, realizing she has forgotten her keys.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+
+END
+She heads to the kitchen.
+She checks the dining table, where she sees a bag of chips and an unreturned library book.
+She heads back to the bedroom.
+She thinks for a while.
+She looks behind the dresser, where she sees her keys.
+She picks up the keys and heads out the front door.","BEGINNING
+Today Alice is at her office.
+Around lunchtime, she starts feeling hungry.
+She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes the neighborhood pizza place, seeing that it is open today.
+
+END
+She rounds the corner.
+She walks a few blocks more to the town burger joint. 
+She sees that the burger joint is closed.
+She turns around and walks the few blocks back to the corner.
+She walks past the pizza place and heads back to her office.
+There, she gets a bag of chips from the vending machine and has that for lunch.
+ 
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has less than half an hour to get to the station uptown before her train leaves.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+The cab driver says he knows a shortcut.
+They take the shortcut and arrive at a large brick building.
+She checks the map -- she needs to go downstairs and down a long hallway.
+She runs down the stairs and down the hall.
+She arrives just in time to get aboard a train.","BEGINNING
+Today Alice goes to the park.
+She plans to meet her friend Billy to watch a baseball game together.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She stands there for twenty minutes.
+After twenty minutes pass, she starts walking back to the park entrance.
+She finds her friend Billy waiting for her at the entrance.
+They head back to the baseball game together.
+","BEGINNING
+Today Alice goes to the mall.
+She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.
+However, she knows it is a large mall, where she might not be able to find Belinda.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+She sees her friend Belinda here and taps her on the shoulder.
+Belinda turns around and jumps up when she sees Alice.
+They hug, and get an ice cream together to share at the foodcourt.
+","BEGINNING
+Today Alice goes to the zoo.
+She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.
+When she walks into the zoo entry, she checks a map posted at the entrance.
+She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.
+
+MIDDLE
+She takes a long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit.
+
+END
+She looks around the crowd at the front of the panda exhibit.
+She walks to the front of the exhibit and looks at the pandas for a while.
+As she is standing there, she sees her boss, Joe, approaching the exhibit.
+She turns around and heads in the opposite direction.
+She takes the long route again to the entrance, where she leaves."
+narrative-goal-uncertain-outcome-high-certainty,"BEGINNING
+Today Alice is about to go to work. 
+Alice is at her front door, getting ready to leave.
+She pauses, realizing she has forgotten something.
+
+MIDDLE
+She usually puts her keys on top of her dresser.
+She heads to her bedroom.
+She looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings.
+
+END
+She picks up the keys.
+She heads out the front door.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+
+MIDDLE
+She looks online at what restaurants are open today.
+She leaves her office and walks down the block.
+She passes a sushi place, which is open.
+She rounds the corner.
+There, she walks over to a burger joint. 
+The burger place is open.
+
+END
+She purchases a burger.
+She heads back to her office with the burger.
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has four hours to get where she needs to go uptown.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+The cab driver says he knows a shortcut.
+They take the shortcut and arrive at a large brick building.
+She checks the map -- she needs to go downstairs and down a long hallway.
+She runs down the stairs and down the hall.
+She arrives and waits for her train with hours to spare.","BEGINNING
+Today Alice goes to the park.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She sees her friend Billy there, where they had planned to meet up.
+They head in and take a seat on the bleachers.
+They watch the baseball game together.
+","BEGINNING
+Today Alice goes to the mall.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+She looks around the foodcourt.
+She continues looking inside all of the stores in the mall.
+She heads back out of the mall.
+","BEGINNING
+Alice went to the zoo today and saw the panda exhibit, which she had wanted to see while avoiding running into her boss Billy.
+She had heard that he would also be at the zoo, but planned to take a route so that she could see if he was there and avoid running into him on the way in.
+She checked the map in advance and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.
+
+MIDDLE
+She walked along this longer route to the panda exhibit without running into him.
+She also was able to look around the front of the exhibit
+"
+narrative-goal-certain-outcome-high-certainty,"BEGINNING
+Today Alice is about to go to work. 
+Alice is at her front door, getting ready to leave.
+She pauses, realizing she has forgotten her keys.
+
+MIDDLE
+She usually puts her keys on top of her dresser.
+She heads to her bedroom.
+She looks on top of her dresser, where she sees her keys next to a hat and a pair of earrings.
+
+END
+She picks up the keys.
+She heads out the front door.","BEGINNING
+Alice is at her office.
+She's feeling pretty hungry.
+She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.
+
+MIDDLE
+She looks online at what restaurants are open today.
+She leaves her office and walks down the block.
+She passes a sushi place, which is open.
+She rounds the corner.
+There, she walks over to a burger joint. 
+The burger place is open.
+
+END
+She purchases a burger.
+She heads back to her office with the burger.
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has four hours to get to the station uptown before her train leaves.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+The cab driver says he knows a shortcut.
+They take the shortcut and arrive at a large brick building.
+She checks the map -- she needs to go downstairs and down a long hallway.
+She runs down the stairs and down the hall.
+She arrives and waits for her train with hours to spare.","BEGINNING
+Today Alice goes to the park.
+She plans to meet her friend Billy to watch a baseball game together.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She sees her friend Billy there, where they had planned to meet up.
+They head in and take a seat on the bleachers.
+They watch the baseball game together.
+","BEGINNING
+Today Alice goes to the mall.
+She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.
+However, she knows it is a large mall, where she might not be able to find Belinda.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+She looks around the foodcourt.
+She continues looking inside all of the stores in the mall.
+She heads back out of the mall.
+","BEGINNING
+Today Alice goes to the zoo.
+She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.
+When she walks into the zoo entry, she checks a map posted at the entrance.
+She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.
+
+MIDDLE
+She thinks for a while.
+She starts walking through the zoo towards the zebra exhibit, which is far from everything else in the zoo.
+She walks to the front of the exhibit and looks at the zebras for a while.
+
+END
+She does not run into anyone she knows at the zebra exhibit.
+Once she is done looking, she turns around and heads back towards the entrance.
+She leaves the zoo."
+reporting,"BEGINNING
+Alice found her keys behind the dresser drawer today as she was leaving for work.
+She found the keys there after looking several places first.
+She realized she had forgotten her keys as she heading out the front door.
+She left for work after going back into the house to get the keys.
+
+
+MIDDLE
+The two places she looked before looking behind the dresser were the top of the dresser and the kitchen counter.
+The top of the dresser only had a hat and a pair of earrings on it.
+The kitchen counter only had a bag of chips and an unreturned library book on it.
+
+END
+The dresser was in her bedroom.
+The dining table was in her kitchen.
+This meant that Alice went to the bedroom, then the kitchen, then back to the bedroom again.
+She had to think a while in the bedroom before realizing the keys might have been behind the dresser.
+","BEGINNING
+Alice ate a bag of chips for lunch today, because she did not plan ahead to check what nearby restaurants were open.
+She had originally wanted a burger, but did not realize that the burger joint nearby was closed.
+She did not want pizza, which was the only other nearby restaurant that was open.
+
+MIDDLE
+She ultimately purchased the bag of chips from a vending machine in her office building.
+However, because she had not checked the restaurant hours, she previously walked all the way to the burger joint.
+
+END
+On her way there and back she passed the open pizza place, which she did not enter because she did not want pizza.
+The burger joint was down the block and around a corner.
+","BEGINNING
+Alice caught her train uptown today just in time, managing to overcome several detours that slowed her down along the way.
+She began at her apartment downtown, and only had less than half an hour to get uptown because she had checked her watch late.
+
+MIDDLE
+The first detour was that subways were delayed by 20 minutes today≥
+This lead her to take a cab.
+
+END
+The second detour was that the cab got stuck in traffic.
+However, the cab driver was able to take a shortcut.
+The last detour was that the train itself was downstairs and down a long hallway.
+However, she was able to run down the stairs and down the hall.","BEGINNING
+Alice watched a baseball game at the park with her friend Billy today.
+They met up successfully, despite a brief period in which Billy believed he would meet Alice at the park entrance and Alice thought she would meet him directly at the field.
+
+MIDDLE
+Alice previously went all the way to the baseball field before realizing that Billy was not there.
+She arrived as the baseball game was just beginning and waited for twenty minutes before deciding to return back to the park entrance.
+
+END
+When she returned to the park entrance, she met Billy, where he had been waiting.
+Once they returned to the game together, Billy and Alice sat on the bleachers to watch the baseball game.
+There is a playground full of kids on the path from the park entrance to the baseball field.
+
+
+
+
+
+","BEGINNING
+Alice shared an ice cream with her friend Belinda at the mall foodcourt today,
+She successfully found Belinda after looking in several different locations at the mall.
+She had hoped to find Belinda after hearing from another friend that Belinda would also be at the mall today.
+However, she had also known that it was a large mall, and she might not have been able to find Belinda there.
+
+MIDDLE
+The first place she had looked was the shoe store just near the entrance..
+She then continued to the next store down, which was a clothing store.
+
+END
+She then continued to the foodcourt.
+The foodcourt was down a hallway from the clothing store.
+When she met Belinda initially, they hugged.
+Alice tapped Belinda on the shoulder to let her know she was there when she first saw Belinda at the foodcourt.","BEGINNING
+Alice went to the zoo today and saw the panda exhibit, while successfully avoiding into her boss Joe.
+She wanted to see the pandas, but had heard that Joe would also be there.
+So, she checked the map at the zoo entry and planned a route that would let her come up around the back of the exhibit and take a less traveled route there.
+She also nearly ran into him as she was leaving, but managed to avoid him by taking the same less traveled route out of the zoo. 
+
+MIDDLE
+She walked along this longer route into the lab and arrived at the panda exhibit without running into him.
+When she arrived at the panda exhibit, she also came around the back of the exhibit and checked the front of the crowd so that she would avoid seeing him.
+
+END
+She managed to look at the pandas for a while this way.
+She did see Joe approaching the exhibit as she was leaving, but turned around and headed in the opposite direction.
+On the map of the zoo, she also saw that in addition to the panda bear exhibit toward the back of the zoo, there was also a zebra exhibit in a far off corner of the zoo."
+narrative-goal-uncertain-no-resolution,"BEGINNING
+Today Alice is about to go to work. 
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+
+END
+She heads to the kitchen.
+She checks the kitchen counter, where she sees a bag of chips and an unreturned library book.","BEGINNING
+Today Alice is at her office.
+Around lunchtime, she starts feeling pretty hungry.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes the neighborhood pizza place, seeing that it is open today.
+
+END
+She rounds the corner.
+
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has less than half an hour to get where she needs to go uptown.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+","BEGINNING
+Today Alice goes to the park.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She stands there for twenty minutes.
+
+","BEGINNING
+Today Alice goes to the mall.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+
+","BEGINNING
+Today Alice goes to the zoo.
+When she walks into the zoo entry, she checks a map posted at the entrance.
+She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.
+
+MIDDLE
+She takes a long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit.
+
+END
+She looks around the crowd at the front of the panda exhibit."
+narrative-goal-certain-no-resolution,"BEGINNING
+Today Alice is about to go to work. 
+Alice is at her front door, getting ready to leave.
+She pauses at the front door, realizing she has forgotten something.
+
+MIDDLE
+She heads to her bedroom.
+She looks on top of her dresser, where she sees a hat and a pair of earrings.
+
+END
+She heads to the kitchen.
+She checks the kitchen counter, where she sees a bag of chips and an unreturned library book.","BEGINNING
+Today Alice is at her office.
+Around lunchtime, she starts feeling pretty hungry.
+She plans to get a burger, because she does not feel like eating pizza at the nearby pizza place today.
+
+MIDDLE
+She leaves her office and walks down the block.
+She passes the neighborhood pizza place, seeing that it is open today.
+
+END
+She rounds the corner.
+
+ 
+","BEGINNING
+Today Alice is at her apartment downtown.
+She checks her watch -- she has less than half an hour to get to the station uptown before her train leaves.
+
+MIDDLE
+Alice goes to the subway station.
+The subway announcer says that all trains are delayed by 20 minutes today.
+
+END
+She goes back upstairs and hails a cab.
+The cab gets stuck in traffic.
+","BEGINNING
+Today Alice goes to the park.
+She plans to meet her friend Billy to watch a baseball game together.
+Upon arriving at the park entrance, she walks briskly inside.
+
+MIDDLE
+She passes a playground full of kids.
+She comes to a large field.
+A baseball game is just beginning.
+Alice stands near the edge of the bleachers.
+
+END
+She stands there for twenty minutes.
+","BEGINNING
+Today Alice goes to the mall.
+She hopes to find her friend Belinda there, because she had heard from another friend that Belinda was also going to the mall today.
+However, she knows it is a large mall, where she might not be able to find Belinda.
+When she walks into the mall entrance, she heads inside a shoe store just near the entrance.
+
+MIDDLE
+She looks inside the shoe store, then heads back out.
+She goes inside the next store down, which is a clothing store.
+She looks inside the clothing store, then heads back out.
+
+END
+She walks down the mall hallway.
+She comes to the foodcourt.
+
+","BEGINNING
+Today Alice goes to the zoo.
+She wanted to see the panda bears there, but also wanted to avoid her boss Joe, whom she had heard would also be at the zoo today, trying to see the pandas as well.
+When she walks into the zoo entry, she checks a map posted at the entrance.
+She sees that there is a zebra exhibit in a far off corner of the zoo, and a panda bear exhibit towards the back of the zoo.
+
+MIDDLE
+She takes a long route around the zoo, around the outer edge.
+She comes up around the back of the panda exhibit.
+
+END
+She looks around the crowd at the front of the panda exhibit.
+
+"
+narrative-missing-detail,,,,,,
