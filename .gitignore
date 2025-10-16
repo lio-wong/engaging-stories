@@ -5,6 +5,7 @@ __pycache__/
 *$py.class
 
 run-scripts/commands.txt
+human-data/*
 
 .DS_Store
 
